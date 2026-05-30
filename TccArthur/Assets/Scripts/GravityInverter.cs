@@ -21,6 +21,23 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }
     }
 
+    public void ResetGravity()
+    {
+        // Para qualquer rotação em andamento
+        StopAllCoroutines();
+        isRotating = false;
+
+        // Só reseta se estiver invertida
+        if (isGravityInverted)
+        {
+            isGravityInverted = false;
+            Physics2D.gravity = new Vector2(0f, -9.81f); // valor padrão da Unity
+        }
+
+        // Reseta a rotação do personagem instantaneamente
+        transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
+    }
+
     private System.Collections.IEnumerator RotateOverTime(Quaternion target)
     {
         isRotating = true;

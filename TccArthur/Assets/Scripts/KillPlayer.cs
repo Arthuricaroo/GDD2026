@@ -4,8 +4,16 @@ using System.Collections;
 public class KillPlayer : MonoBehaviour
 {
     public GameObject Player;
-    public Transform respawnPoint;   // checkpoint inicial (arraste no Inspector)
+    public Transform respawnPoint;
     public float respawnDelay = 1.5f;
+
+    private NewMonoBehaviourScript gravityScript; // referência ao script de gravidade
+
+    void Start()
+    {
+        // Pega o script de gravidade automaticamente do Player
+        gravityScript = Player.GetComponent<NewMonoBehaviourScript>();
+    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -18,12 +26,16 @@ public class KillPlayer : MonoBehaviour
     IEnumerator RespawnRoutine()
     {
         Player.SetActive(false);
+
+        // Reseta a gravidade antes de reativar o player
+        gravityScript.ResetGravity();
+
         yield return new WaitForSeconds(respawnDelay);
+
         Player.transform.position = respawnPoint.position;
         Player.SetActive(true);
     }
 
-    // Chamado pelo script Checkpoint quando o player toca num novo checkpoint
     public void SetRespawnPoint(Transform newPoint)
     {
         respawnPoint = newPoint;
