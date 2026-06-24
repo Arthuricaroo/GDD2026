@@ -10,17 +10,17 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
+    private Animator anim;
 
     private bool isGrounded;
     private bool isFacingRight = true;
 
-
     public float gravityCooldown = 0.2f;
-
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -49,6 +49,9 @@ public class PlayerMovement : MonoBehaviour
             );
         }
 
+        // Animação de corrida
+        anim.SetBool("isRunning", moveX != 0);
+
         // Flip do personagem
         if (moveX > 0 && !isFacingRight)
         {
@@ -58,9 +61,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Flip();
         }
-
     }
-    
+
     void Flip()
     {
         isFacingRight = !isFacingRight;
@@ -72,4 +74,3 @@ public class PlayerMovement : MonoBehaviour
         );
     }
 }
-
