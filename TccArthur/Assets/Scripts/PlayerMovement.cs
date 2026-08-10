@@ -1,76 +1,41 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    public float velocidade = 5f;
-    public float jumpForce = 10f;
-
-    public Transform groundCheck;
-    public float groundRadius = 0.2f;
-    public LayerMask groundLayer;
+    public float speed = 5f;
 
     private Rigidbody2D rb;
     private Animator anim;
+    private SpriteRenderer sr;
 
-    private bool isGrounded;
-    private bool isFacingRight = true;
-
-    public float gravityCooldown = 0.2f;
+    Vector2 movement;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        // Movimento horizontal
-        float moveX = Input.GetAxisRaw("Horizontal");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        rb.linearVelocity = new Vector2(
-            moveX * velocidade,
-            rb.linearVelocity.y
-        );
+        anim.SetFloat("Speed", movement.magnitude);
 
-        // Verifica chão
-        isGrounded = Physics2D.OverlapCircle(
-            groundCheck.position,
-            groundRadius,
-            groundLayer
-        );
+        if (movement.x > 0)
+            sr.flipX = false;
 
-        // Pulo
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            rb.linearVelocity = new Vector2(
-                rb.linearVelocity.x,
-                jumpForce
-            );
-        }
-
-        // Animação de corrida
-        anim.SetBool("isRunning", moveX != 0);
-
-        // Flip do personagem
-        if (moveX > 0 && !isFacingRight)
-        {
-            Flip();
-        }
-        else if (moveX < 0 && isFacingRight)
-        {
-            Flip();
-        }
+        if (movement.x < 0)
+            sr.flipX = true;
     }
 
-    void Flip()
+    void FixedUpdate()
     {
-        isFacingRight = !isFacingRight;
-
-        transform.localScale = new Vector3(
-            transform.localScale.x * -1,
-            transform.localScale.y,
-            transform.localScale.z
+        rb.MovePosition(
+            rb.position +
+            movement * speed * Time.fixedDeltaTime
         );
     }
 }
