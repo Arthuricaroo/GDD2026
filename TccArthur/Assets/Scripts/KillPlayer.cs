@@ -7,12 +7,12 @@ public class KillPlayer : MonoBehaviour
     public Transform respawnPoint;
     public float respawnDelay = 1.5f;
 
-    private NewMonoBehaviourScript gravityScript; // referência ao script de gravidade
+    private GravityInverter gravityScript; // referência ao script de gravidade
 
     void Start()
     {
         // Pega o script de gravidade automaticamente do Player
-        gravityScript = Player.GetComponent<NewMonoBehaviourScript>();
+        gravityScript = Player.GetComponent<GravityInverter>();
     }
 
     private void OnCollisionEnter2D(Collision2D other)
