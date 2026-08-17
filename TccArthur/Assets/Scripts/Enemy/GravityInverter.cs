@@ -4,7 +4,7 @@ public class GravityInverter : MonoBehaviour
 {
     private bool isGravityInverted = false;
     private bool isRotating = false;
-    public float rotationDuration = 1f; // Duração em segundos
+    public float rotationDuration = 1f; 
 
     void Update()
     {
@@ -35,7 +35,7 @@ public class GravityInverter : MonoBehaviour
         transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
     }
 
-    // NOVO: expõe o estado da gravidade pra outros scripts (como o Enemy.cs)
+    
     public bool IsInverted()
     {
         return isGravityInverted;
