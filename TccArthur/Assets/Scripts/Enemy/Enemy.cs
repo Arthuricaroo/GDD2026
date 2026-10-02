@@ -7,25 +7,32 @@ public class Enemy : MonoBehaviour
     public Transform pointB;
     public float patrolSpeed = 2f;
 
-    [Header("Perseguição")]
+    [Header("Perseguicao")]
     public float chaseSpeed = 3.5f;
     public float detectionRange = 5f;
     public Transform player;
 
     [Header("Gravidade")]
-    public GravityInverter gravityInverter;   
+    public GravityInverter gravityInverter;
 
-    [Header("Chão")]
+    [Header("Chao")]
     public LayerMask groundLayer;
-    public float groundCheckDistance = 0.6f;
+    public float groundCheckDistance = 0.1f;
+
+    [Header("Visual")]
+    public bool spriteOlhaParaDireita = true;
 
     private Rigidbody2D rb;
+    private Collider2D col;
+    private SpriteRenderer sr;
     private bool isGrounded;
     private Transform currentTarget;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<Collider2D>();
+        sr = GetComponentInChildren<SpriteRenderer>();
 
         if (player == null)
             player = GameObject.FindWithTag("Player").transform;
@@ -36,7 +43,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         CheckGround();
-        UpdateGravityScale();   
+        UpdateGravityScale();
 
         bool gravityInverted = gravityInverter != null && gravityInverter.IsInverted();
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
@@ -49,7 +56,16 @@ public class Enemy : MonoBehaviour
 
     void CheckGround()
     {
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, groundLayer);
+       
+        bool invertida = rb.gravityScale < 0f;
+
+        Vector2 origin = new Vector2(
+            col.bounds.center.x,
+            invertida ? col.bounds.max.y : col.bounds.min.y
+        );
+        Vector2 dir = invertida ? Vector2.up : Vector2.down;
+
+        isGrounded = Physics2D.Raycast(origin, dir, groundCheckDistance, groundLayer);
     }
 
     void Patrol()
@@ -74,15 +90,19 @@ public class Enemy : MonoBehaviour
     void MoveTowards(Vector3 target, float speed)
     {
         float direction = target.x - transform.position.x;
-        rb.linearVelocity = new Vector2(Mathf.Sign(direction) * speed, rb.linearVelocity.y);
-        transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
+        float dir = Mathf.Sign(direction);
+
+        rb.linearVelocity = new Vector2(dir * speed, rb.linearVelocity.y);
+
+        // espelha so o sprite, sem mexer na escala do objeto
+        if (sr != null)
+            sr.flipX = spriteOlhaParaDireita ? dir < 0 : dir > 0;
     }
 
     void UpdateGravityScale()
     {
         if (gravityInverter == null) return;
 
-        
         rb.gravityScale = gravityInverter.IsInverted() ? -1f : 1f;
     }
 
@@ -99,7 +119,19 @@ public class Enemy : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
 
-        Gizmos.color = Color.green;
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundCheckDistance);
+        Collider2D c = GetComponent<Collider2D>();
+        if (c != null)
+        {
+            bool invertida = Application.isPlaying && rb != null && rb.gravityScale < 0f;
+            Vector3 origin = new Vector3(
+                c.bounds.center.x,
+                invertida ? c.bounds.max.y : c.bounds.min.y,
+                0f
+            );
+            Vector3 dir = invertida ? Vector3.up : Vector3.down;
+
+            Gizmos.color = Color.green;
+            Gizmos.DrawLine(origin, origin + dir * groundCheckDistance);
+        }
     }
 }
