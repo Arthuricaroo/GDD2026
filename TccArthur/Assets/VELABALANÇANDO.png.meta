@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 900b412bdafb2d848941caa0caacad67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5717665198315531336
+    second: "VELABALAN\xC7ANDO_0"
+  - first:
+      213: -2126368932242348923
+    second: "VELABALAN\xC7ANDO_1"
+  - first:
+      213: 7506212041828962025
+    second: "VELABALAN\xC7ANDO_2"
+  - first:
+      213: 5886525411559145139
+    second: "VELABALAN\xC7ANDO_3"
+  - first:
+      213: 2224728674859730101
+    second: "VELABALAN\xC7ANDO_4"
+  - first:
+      213: -832454603485327388
+    second: "VELABALAN\xC7ANDO_5"
+  - first:
+      213: -7183706488740847839
+    second: "VELABALAN\xC7ANDO_6"
+  - first:
+      213: 1810227806096841274
+    second: "VELABALAN\xC7ANDO_7"
+  - first:
+      213: 2084210899532300131
+    second: "VELABALAN\xC7ANDO_8"
+  - first:
+      213: 803360515045407206
+    second: "VELABALAN\xC7ANDO_9"
+  - first:
+      213: -6054114298828263573
+    second: "VELABALAN\xC7ANDO_10"
+  - first:
+      213: -7603169597837071528
+    second: "VELABALAN\xC7ANDO_11"
+  - first:
+      213: -7978294173563437242
+    second: "VELABALAN\xC7ANDO_12"
+  - first:
+      213: 2656414203912053116
+    second: "VELABALAN\xC7ANDO_13"
+  - first:
+      213: -7345451924471996338
+    second: "VELABALAN\xC7ANDO_14"
+  - first:
+      213: 512877530891144467
+    second: "VELABALAN\xC7ANDO_15"
+  - first:
+      213: 5677399655956738361
+    second: "VELABALAN\xC7ANDO_16"
+  - first:
+      213: 6836064250781115753
+    second: "VELABALAN\xC7ANDO_17"
+  - first:
+      213: -3394117585595877575
+    second: "VELABALAN\xC7ANDO_18"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "VELABALAN\xC7ANDO_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ce532543a395f40800000000000000
+      internalID: 5717665198315531336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "VELABALAN\xC7ANDO_1"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584a44cd8be9d72e0800000000000000
+      internalID: -2126368932242348923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "VELABALAN\xC7ANDO_2"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee89f9151c6b2860800000000000000
+      internalID: 7506212041828962025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "VELABALAN\xC7ANDO_3"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3befa457ca321b150800000000000000
+      internalID: 5886525411559145139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ecbdbc2359ab10d4bac40d78ef4c76b2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "VELABALAN\xC7ANDO_0": 5717665198315531336
+      "VELABALAN\xC7ANDO_1": -2126368932242348923
+      "VELABALAN\xC7ANDO_2": 7506212041828962025
+      "VELABALAN\xC7ANDO_3": 5886525411559145139
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

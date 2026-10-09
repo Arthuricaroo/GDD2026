@@ -7,7 +7,7 @@ public class RatoAndador : MonoBehaviour
     public bool comecaPraDireita = true;
     public bool spriteOlhaPraDireita = false;   // marque se o seu sprite foi desenhado olhando pra direita
 
-    [Header("Detecção de parede")]
+    [Header("Deteccao de parede")]
     public Transform checagemParede;            // objeto filho posicionado NA FRENTE do rato
     public float raioChecagem = 0.1f;
     public LayerMask camadaParede;              // layer do Tilemap das paredes
@@ -18,14 +18,20 @@ public class RatoAndador : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        // Kinematic: nao sofre gravidade (nem a inversao) e nao e empurrado por ninguem
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.gravityScale = 0f;
+        rb.freezeRotation = true;
+
         direcao = comecaPraDireita ? 1 : -1;
         AplicarFlip();
     }
 
     void FixedUpdate()
     {
-        // Anda sempre na direção atual
-        rb.linearVelocity = new Vector2(direcao * velocidade, rb.linearVelocity.y);
+        // Anda sempre na direcao atual, sem movimento vertical
+        rb.linearVelocity = new Vector2(direcao * velocidade, 0f);
 
         // Bateu na parede? Vira.
         if (Physics2D.OverlapCircle(checagemParede.position, raioChecagem, camadaParede))
