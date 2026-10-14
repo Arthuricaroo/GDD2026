@@ -4,7 +4,15 @@ public class GravityInverter : MonoBehaviour
 {
     private bool isGravityInverted = false;
     private bool isRotating = false;
-    public float rotationDuration = 1f; 
+    public float rotationDuration = 1f;
+
+    private Animator anim;
+
+    void Awake()
+    {
+        anim = GetComponent<Animator>();
+        if (anim == null) anim = GetComponentInChildren<Animator>();
+    }
 
     void Update()
     {
@@ -12,6 +20,8 @@ public class GravityInverter : MonoBehaviour
         {
             isGravityInverted = !isGravityInverted;
             Physics2D.gravity = -Physics2D.gravity;
+
+            anim.SetTrigger("FlipGravity");
 
             Quaternion targetRotation = isGravityInverted
                 ? Quaternion.Euler(0f, 180f, 180f)
@@ -35,7 +45,6 @@ public class GravityInverter : MonoBehaviour
         transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
     }
 
-    
     public bool IsInverted()
     {
         return isGravityInverted;
