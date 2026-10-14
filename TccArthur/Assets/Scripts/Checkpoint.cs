@@ -22,11 +22,7 @@ public class Checkpoint : MonoBehaviour
         if (activated) return;
         if (!other.CompareTag("Player")) return;
 
-        // Busca o KillPlayer na cena e atualiza o respawn
-        KillPlayer killPlayer = FindFirstObjectByType<KillPlayer>();
-        if (killPlayer == null) return;
-
-        killPlayer.SetRespawnPoint(pontoRespawn != null ? pontoRespawn : transform);
+        KillPlayer.SetRespawnPoint(pontoRespawn != null ? pontoRespawn : transform);
         activated = true;
 
         // Acende a vela
