@@ -5,7 +5,10 @@ public class BreakablePlatform : MonoBehaviour
 {
     [Header("Configurações")]
     public float breakDelay = 1.5f;
-    public float respawnTime = 0f;
+    public float respawnTime = 0f;          // 0 = não volta / >0 = volta após X segundos
+
+    [Header("Detecção")]
+    public float margemContato = 0.1f;      // tolerância da checagem "player está apoiado"
 
     [Header("Feedback Visual")]
     public bool shakeOnBreak = true;
@@ -31,12 +34,17 @@ public class BreakablePlatform : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (!isCrumbling && other.gameObject.CompareTag("Player"))
-        {
-            bool playerAbove = other.transform.position.y > transform.position.y + 0.1f;
-            if (playerAbove)
-                StartCoroutine(CrumbleRoutine());
-        }
+        if (isCrumbling) return;
+        if (!other.gameObject.CompareTag("Player")) return;
+
+        // +1 com gravidade normal (player acima), -1 com gravidade invertida (player abaixo)
+        float lado = Mathf.Sign(-Physics2D.gravity.y);
+
+        float diferencaY = other.transform.position.y - transform.position.y;
+        bool playerApoiado = diferencaY * lado > margemContato;
+
+        if (playerApoiado)
+            StartCoroutine(CrumbleRoutine());
     }
 
     IEnumerator CrumbleRoutine()
@@ -63,10 +71,8 @@ public class BreakablePlatform : MonoBehaviour
 
         transform.position = originalPosition;
 
-        // Se não houver Animator, ou você preferir controlar tudo por código,
-        // a plataforma some aqui mesmo. Se estiver usando Animation Event
-        // (OnBreakAnimationEnd), pode remover as duas linhas abaixo,
-        // pois o Event já vai desativar sr/col no momento certo.
+        // Some visualmente e desliga a colisão
+        // (se usar Animation Event, remova estas duas linhas)
         sr.enabled = false;
         col.enabled = false;
 
@@ -77,10 +83,7 @@ public class BreakablePlatform : MonoBehaviour
         }
     }
 
-    // Chame este método via Animation Event, no último frame do clip "Break",
-    // caso queira que o sumiço visual siga exatamente o tempo da animação
-    // em vez do breakDelay. Nesse caso, remova sr.enabled/col.enabled
-    // do fim do CrumbleRoutine acima para não haver conflito.
+    // Opcional: chame via Animation Event no último frame do clip "Break"
     public void OnBreakAnimationEnd()
     {
         sr.enabled = false;

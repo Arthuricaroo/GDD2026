@@ -35,6 +35,7 @@ public class KillPlayer : MonoBehaviour
     IEnumerator RespawnRoutine()
     {
         respawning = true;
+        Player.transform.SetParent(null);
 
         Player.SetActive(false);
 
