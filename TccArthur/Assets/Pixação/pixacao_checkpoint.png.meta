@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 87936bddeaf9f4b45877df62bdbce011
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2196093203640350097
+    second: pixacao_checkpoint_0
+  - first:
+      213: 3471645878978009134
+    second: pixacao_checkpoint_1
+  - first:
+      213: 4155608893987598386
+    second: pixacao_checkpoint_2
+  - first:
+      213: 2505545832525902877
+    second: pixacao_checkpoint_3
+  - first:
+      213: 2271533645185774233
+    second: pixacao_checkpoint_4
+  - first:
+      213: -8987667797184758361
+    second: pixacao_checkpoint_5
+  - first:
+      213: -3299111796605458437
+    second: pixacao_checkpoint_6
+  - first:
+      213: -5817059910122163405
+    second: pixacao_checkpoint_7
+  - first:
+      213: 3910836617914593997
+    second: pixacao_checkpoint_8
+  - first:
+      213: 4309075842474761853
+    second: pixacao_checkpoint_9
+  - first:
+      213: -4543049495738431292
+    second: pixacao_checkpoint_10
+  - first:
+      213: -4080360119895533297
+    second: pixacao_checkpoint_11
+  - first:
+      213: -912230082055139850
+    second: pixacao_checkpoint_12
+  - first:
+      213: 7751206719414279289
+    second: pixacao_checkpoint_13
+  - first:
+      213: -8380108341647599245
+    second: pixacao_checkpoint_14
+  - first:
+      213: -5783106707085848258
+    second: pixacao_checkpoint_15
+  - first:
+      213: -2505306388216307719
+    second: pixacao_checkpoint_16
+  - first:
+      213: -8453481797835515661
+    second: pixacao_checkpoint_17
+  - first:
+      213: 8444823687966034456
+    second: pixacao_checkpoint_18
+  - first:
+      213: 2341012677941575364
+    second: pixacao_checkpoint_19
+  - first:
+      213: 6454504601417587798
+    second: pixacao_checkpoint_20
+  - first:
+      213: -1604785274524892015
+    second: pixacao_checkpoint_21
+  - first:
+      213: -2845777769467750083
+    second: pixacao_checkpoint_22
+  - first:
+      213: -3765325132013119500
+    second: pixacao_checkpoint_23
+  - first:
+      213: -8741911192073940118
+    second: pixacao_checkpoint_24
+  - first:
+      213: -7869092496652218016
+    second: pixacao_checkpoint_25
+  - first:
+      213: -8600410903037645760
+    second: pixacao_checkpoint_26
+  - first:
+      213: 848432456484938093
+    second: pixacao_checkpoint_27
+  - first:
+      213: -8115274426722249450
+    second: pixacao_checkpoint_28
+  - first:
+      213: -6605077257229356966
+    second: pixacao_checkpoint_29
+  - first:
+      213: -1325659861444667659
+    second: pixacao_checkpoint_30
+  - first:
+      213: 6684201752841508790
+    second: pixacao_checkpoint_31
+  - first:
+      213: 6835190107156786810
+    second: pixacao_checkpoint_32
+  - first:
+      213: -8658441038465151841
+    second: pixacao_checkpoint_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixacao_checkpoint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a0e5fddd8e581e0800000000000000
+      internalID: -2196093203640350097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28de6a8883cd2030800000000000000
+      internalID: 3471645878978009134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230b59f8540bba930800000000000000
+      internalID: 4155608893987598386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14ba24e8ac75c220800000000000000
+      internalID: 2505545832525902877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99275a0b0db168f10800000000000000
+      internalID: 2271533645185774233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adb595d1c3654380800000000000000
+      internalID: -8987667797184758361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7e709ec433732d0800000000000000
+      internalID: -3299111796605458437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333b004f4d6a54fa0800000000000000
+      internalID: -5817059910122163405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 27
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2b369fe25164630800000000000000
+      internalID: 3910836617914593997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 28
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7edce4f5a9eccb30800000000000000
+      internalID: 4309075842474761853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_10
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c84e71cd88d3f0c0800000000000000
+      internalID: -4543049495738431292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 27
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09d4f1f616af57c0800000000000000
+      internalID: -4080360119895533297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd8da5d29b1753f0800000000000000
+      internalID: -912230082055139850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c1f439171d19b60800000000000000
+      internalID: 7751206719414279289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 24
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3799eccecdfd3bb80800000000000000
+      internalID: -8380108341647599245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3118f117174ebfa0800000000000000
+      internalID: -5783106707085848258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff99d41d1d5b3dd0800000000000000
+      internalID: -2505306388216307719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f898c4e7133faa80800000000000000
+      internalID: -8453481797835515661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a0500d66a023570800000000000000
+      internalID: 8444823687966034456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 11
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ceb46b90a2fc7020800000000000000
+      internalID: 2341012677941575364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c9e90dcb1039950800000000000000
+      internalID: 6454504601417587798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1948a2b9b48aab9e0800000000000000
+      internalID: -1604785274524892015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39db2d3234c188d0800000000000000
+      internalID: -2845777769467750083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7d182fdb0eebbc0800000000000000
+      internalID: -3765325132013119500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63db62661e7ea680800000000000000
+      internalID: -8741911192073940118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0615a58011e5bc290800000000000000
+      internalID: -7869092496652218016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c6b02c9d335a880800000000000000
+      internalID: -8600410903037645760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6162b0f2dc36cb00800000000000000
+      internalID: 848432456484938093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_28
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615986cc7e0c06f80800000000000000
+      internalID: -8115274426722249450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5035d0da3d0654a0800000000000000
+      internalID: -6605077257229356966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_30
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6d891316f4a9de0800000000000000
+      internalID: -1325659861444667659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_31
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7592d641e03cc50800000000000000
+      internalID: 6684201752841508790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e285520397bde50800000000000000
+      internalID: 6835190107156786810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_checkpoint_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cce99ffb907d780800000000000000
+      internalID: -8658441038465151841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixacao_checkpoint_0: -2196093203640350097
+      pixacao_checkpoint_1: 3471645878978009134
+      pixacao_checkpoint_10: -4543049495738431292
+      pixacao_checkpoint_11: -4080360119895533297
+      pixacao_checkpoint_12: -912230082055139850
+      pixacao_checkpoint_13: 7751206719414279289
+      pixacao_checkpoint_14: -8380108341647599245
+      pixacao_checkpoint_15: -5783106707085848258
+      pixacao_checkpoint_16: -2505306388216307719
+      pixacao_checkpoint_17: -8453481797835515661
+      pixacao_checkpoint_18: 8444823687966034456
+      pixacao_checkpoint_19: 2341012677941575364
+      pixacao_checkpoint_2: 4155608893987598386
+      pixacao_checkpoint_20: 6454504601417587798
+      pixacao_checkpoint_21: -1604785274524892015
+      pixacao_checkpoint_22: -2845777769467750083
+      pixacao_checkpoint_23: -3765325132013119500
+      pixacao_checkpoint_24: -8741911192073940118
+      pixacao_checkpoint_25: -7869092496652218016
+      pixacao_checkpoint_26: -8600410903037645760
+      pixacao_checkpoint_27: 848432456484938093
+      pixacao_checkpoint_28: -8115274426722249450
+      pixacao_checkpoint_29: -6605077257229356966
+      pixacao_checkpoint_3: 2505545832525902877
+      pixacao_checkpoint_30: -1325659861444667659
+      pixacao_checkpoint_31: 6684201752841508790
+      pixacao_checkpoint_32: 6835190107156786810
+      pixacao_checkpoint_33: -8658441038465151841
+      pixacao_checkpoint_4: 2271533645185774233
+      pixacao_checkpoint_5: -8987667797184758361
+      pixacao_checkpoint_6: -3299111796605458437
+      pixacao_checkpoint_7: -5817059910122163405
+      pixacao_checkpoint_8: 3910836617914593997
+      pixacao_checkpoint_9: 4309075842474761853
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: a9652f1c30c08fa4da405f1d8a6c0446
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8443909005717368132
+    second: pixacao_pular_0
+  - first:
+      213: 407142499804936754
+    second: pixacao_pular_1
+  - first:
+      213: 7300594819782216959
+    second: pixacao_pular_2
+  - first:
+      213: 3551778012647223250
+    second: pixacao_pular_3
+  - first:
+      213: -6519743556219852560
+    second: pixacao_pular_4
+  - first:
+      213: 2391491697932329593
+    second: pixacao_pular_5
+  - first:
+      213: -2689385459323778377
+    second: pixacao_pular_6
+  - first:
+      213: -4269269544527679154
+    second: pixacao_pular_7
+  - first:
+      213: -3556289223549769512
+    second: pixacao_pular_8
+  - first:
+      213: 1333049027737048445
+    second: pixacao_pular_9
+  - first:
+      213: 6912212516888957589
+    second: pixacao_pular_10
+  - first:
+      213: -4504243564267408330
+    second: pixacao_pular_11
+  - first:
+      213: 2020171318379030443
+    second: pixacao_pular_12
+  - first:
+      213: -6239535385133603546
+    second: pixacao_pular_13
+  - first:
+      213: -194692873961913565
+    second: pixacao_pular_14
+  - first:
+      213: 1090449001677014040
+    second: pixacao_pular_15
+  - first:
+      213: 1603934353402514706
+    second: pixacao_pular_16
+  - first:
+      213: 5858228544056781625
+    second: pixacao_pular_17
+  - first:
+      213: -162983230273363757
+    second: pixacao_pular_18
+  - first:
+      213: -7702705935300746985
+    second: pixacao_pular_19
+  - first:
+      213: 1371619024421852281
+    second: pixacao_pular_20
+  - first:
+      213: 3154405562615099088
+    second: pixacao_pular_21
+  - first:
+      213: 6953615299020851275
+    second: pixacao_pular_22
+  - first:
+      213: -5190436469446776272
+    second: pixacao_pular_23
+  - first:
+      213: -1199198107984101530
+    second: pixacao_pular_24
+  - first:
+      213: -1922086862207068444
+    second: pixacao_pular_25
+  - first:
+      213: 1582132394383309749
+    second: pixacao_pular_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixacao_pular_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d6181c08ace2570800000000000000
+      internalID: 8443909005717368132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a76d942f576a500800000000000000
+      internalID: 407142499804936754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc0d22fe4ce05560800000000000000
+      internalID: 7300594819782216959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df61ecc8437a4130800000000000000
+      internalID: 3551778012647223250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8afd857c73585a0800000000000000
+      internalID: -6519743556219852560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9726d825709403120800000000000000
+      internalID: 2391491697932329593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bac7e87c226daad0800000000000000
+      internalID: -2689385459323778377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41b80408f180c4c0800000000000000
+      internalID: -4269269544527679154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d824cf0bc585aec0800000000000000
+      internalID: -3556289223549769512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7552762701ff7210800000000000000
+      internalID: 1333049027737048445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 14
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592dc2169ac1def50800000000000000
+      internalID: 6912212516888957589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6347002c756bd71c0800000000000000
+      internalID: -4504243564267408330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba72a695c17190c10800000000000000
+      internalID: 2020171318379030443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625a1ad20a7b869a0800000000000000
+      internalID: -6239535385133603546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3234337dcdf4c4df0800000000000000
+      internalID: -194692873961913565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81443aee69d022f00800000000000000
+      internalID: 1090449001677014040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d4a91ebc1524610800000000000000
+      internalID: 1603934353402514706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_17
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bee8592db9c4150800000000000000
+      internalID: 5858228544056781625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0e5379d97fcbdf0800000000000000
+      internalID: -162983230273363757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7112b1533cd7a1590800000000000000
+      internalID: -7702705935300746985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97415dd4c38f80310800000000000000
+      internalID: 1371619024421852281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de603d7523b6cb20800000000000000
+      internalID: 3154405562615099088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b480cdac544308060800000000000000
+      internalID: 6953615299020851275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a6469f78dd7f7b0800000000000000
+      internalID: -5190436469446776272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_24
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f7946aca79b5fe0800000000000000
+      internalID: -1199198107984101530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6d3b6be206355e0800000000000000
+      internalID: -1922086862207068444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_pular_26
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbfadab70dd4f510800000000000000
+      internalID: 1582132394383309749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixacao_pular_0: 8443909005717368132
+      pixacao_pular_1: 407142499804936754
+      pixacao_pular_10: 6912212516888957589
+      pixacao_pular_11: -4504243564267408330
+      pixacao_pular_12: 2020171318379030443
+      pixacao_pular_13: -6239535385133603546
+      pixacao_pular_14: -194692873961913565
+      pixacao_pular_15: 1090449001677014040
+      pixacao_pular_16: 1603934353402514706
+      pixacao_pular_17: 5858228544056781625
+      pixacao_pular_18: -162983230273363757
+      pixacao_pular_19: -7702705935300746985
+      pixacao_pular_2: 7300594819782216959
+      pixacao_pular_20: 1371619024421852281
+      pixacao_pular_21: 3154405562615099088
+      pixacao_pular_22: 6953615299020851275
+      pixacao_pular_23: -5190436469446776272
+      pixacao_pular_24: -1199198107984101530
+      pixacao_pular_25: -1922086862207068444
+      pixacao_pular_26: 1582132394383309749
+      pixacao_pular_3: 3551778012647223250
+      pixacao_pular_4: -6519743556219852560
+      pixacao_pular_5: 2391491697932329593
+      pixacao_pular_6: -2689385459323778377
+      pixacao_pular_7: -4269269544527679154
+      pixacao_pular_8: -3556289223549769512
+      pixacao_pular_9: 1333049027737048445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

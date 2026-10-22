@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: aea367311de803f4689f2c6a3e664b55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7044838961579502577
+    second: pixacao_garrafas_0
+  - first:
+      213: -1571990424742560920
+    second: pixacao_garrafas_1
+  - first:
+      213: 6255419989469109760
+    second: pixacao_garrafas_2
+  - first:
+      213: -1649418790768959152
+    second: pixacao_garrafas_3
+  - first:
+      213: -4262156346020646328
+    second: pixacao_garrafas_4
+  - first:
+      213: 8312414583272503977
+    second: pixacao_garrafas_5
+  - first:
+      213: -8106571892775134121
+    second: pixacao_garrafas_6
+  - first:
+      213: -3624194781534440122
+    second: pixacao_garrafas_7
+  - first:
+      213: 487077397877844048
+    second: pixacao_garrafas_8
+  - first:
+      213: 5711335145470391255
+    second: pixacao_garrafas_9
+  - first:
+      213: -4934617629172784539
+    second: pixacao_garrafas_10
+  - first:
+      213: -5841569945135314458
+    second: pixacao_garrafas_11
+  - first:
+      213: -3906737736006832957
+    second: pixacao_garrafas_12
+  - first:
+      213: 205485108647462169
+    second: pixacao_garrafas_13
+  - first:
+      213: 8191644856106236624
+    second: pixacao_garrafas_14
+  - first:
+      213: -6773972148052625711
+    second: pixacao_garrafas_15
+  - first:
+      213: -8240940683164458239
+    second: pixacao_garrafas_16
+  - first:
+      213: -1035055883486714436
+    second: pixacao_garrafas_17
+  - first:
+      213: 2597672039140765614
+    second: pixacao_garrafas_18
+  - first:
+      213: -7232796534076572378
+    second: pixacao_garrafas_19
+  - first:
+      213: -6726518824533637510
+    second: pixacao_garrafas_20
+  - first:
+      213: -7988828871476110903
+    second: pixacao_garrafas_21
+  - first:
+      213: -5951876094816878466
+    second: pixacao_garrafas_22
+  - first:
+      213: 1183272235411798531
+    second: pixacao_garrafas_23
+  - first:
+      213: 7562305977160005218
+    second: pixacao_garrafas_24
+  - first:
+      213: 976679289325218671
+    second: pixacao_garrafas_25
+  - first:
+      213: -7884216066511093021
+    second: pixacao_garrafas_26
+  - first:
+      213: 7020372895313403710
+    second: pixacao_garrafas_27
+  - first:
+      213: -4348634297253860250
+    second: pixacao_garrafas_28
+  - first:
+      213: -4936325838873937606
+    second: pixacao_garrafas_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixacao_garrafas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb27ccd5bb44c160800000000000000
+      internalID: 7044838961579502577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b77e6990b2f2ae0800000000000000
+      internalID: -1571990424742560920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e1f297657bfc650800000000000000
+      internalID: 6255419989469109760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051ac5a49561c19e0800000000000000
+      internalID: -1649418790768959152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842334a9267c9d4c0800000000000000
+      internalID: -4262156346020646328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aafbbdb501ab5370800000000000000
+      internalID: 8312414583272503977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cd8f060dbaf7f80800000000000000
+      internalID: -8106571892775134121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_7
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645b0d94c0644bdc0800000000000000
+      internalID: -3624194781534440122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05861ae005272c600800000000000000
+      internalID: 487077397877844048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d377fa0e0db24f40800000000000000
+      internalID: 5711335145470391255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_10
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562a6c63967b48bb0800000000000000
+      internalID: -4934617629172784539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 13
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e98c99b5139eeea0800000000000000
+      internalID: -5841569945135314458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cce2b65aba78c9c0800000000000000
+      internalID: -3906737736006832957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 15
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915809b1e970ad200800000000000000
+      internalID: 205485108647462169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da3e5e68919ea170800000000000000
+      internalID: 8191644856106236624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6feeca8340ef1a0800000000000000
+      internalID: -6773972148052625711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 13
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103eaec6c1c42ad80800000000000000
+      internalID: -8240940683164458239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 14
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5a81e682eb2a1f0800000000000000
+      internalID: -1035055883486714436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 17
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf23ffd4f8cc0420800000000000000
+      internalID: 2597672039140765614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d70bd8fd1ff9b90800000000000000
+      internalID: -7232796534076572378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 15
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76c1b884ca96a2a0800000000000000
+      internalID: -6726518824533637510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c91840d77af12190800000000000000
+      internalID: -7988828871476110903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e700d45e930b66da0800000000000000
+      internalID: -5951876094816878466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a7d4034d3db6010800000000000000
+      internalID: 1183272235411798531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2667f6b2835b2f860800000000000000
+      internalID: 7562305977160005218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6be5b393acdd8d00800000000000000
+      internalID: 976679289325218671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2cd278243a59290800000000000000
+      internalID: -7884216066511093021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f9fe7e3ff5d6160800000000000000
+      internalID: 7020372895313403710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_28
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c6a1e852c86a3c0800000000000000
+      internalID: -4348634297253860250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_garrafas_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a393656adc5ae7bb0800000000000000
+      internalID: -4936325838873937606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixacao_garrafas_0: 7044838961579502577
+      pixacao_garrafas_1: -1571990424742560920
+      pixacao_garrafas_10: -4934617629172784539
+      pixacao_garrafas_11: -5841569945135314458
+      pixacao_garrafas_12: -3906737736006832957
+      pixacao_garrafas_13: 205485108647462169
+      pixacao_garrafas_14: 8191644856106236624
+      pixacao_garrafas_15: -6773972148052625711
+      pixacao_garrafas_16: -8240940683164458239
+      pixacao_garrafas_17: -1035055883486714436
+      pixacao_garrafas_18: 2597672039140765614
+      pixacao_garrafas_19: -7232796534076572378
+      pixacao_garrafas_2: 6255419989469109760
+      pixacao_garrafas_20: -6726518824533637510
+      pixacao_garrafas_21: -7988828871476110903
+      pixacao_garrafas_22: -5951876094816878466
+      pixacao_garrafas_23: 1183272235411798531
+      pixacao_garrafas_24: 7562305977160005218
+      pixacao_garrafas_25: 976679289325218671
+      pixacao_garrafas_26: -7884216066511093021
+      pixacao_garrafas_27: 7020372895313403710
+      pixacao_garrafas_28: -4348634297253860250
+      pixacao_garrafas_29: -4936325838873937606
+      pixacao_garrafas_3: -1649418790768959152
+      pixacao_garrafas_4: -4262156346020646328
+      pixacao_garrafas_5: 8312414583272503977
+      pixacao_garrafas_6: -8106571892775134121
+      pixacao_garrafas_7: -3624194781534440122
+      pixacao_garrafas_8: 487077397877844048
+      pixacao_garrafas_9: 5711335145470391255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

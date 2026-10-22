@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 17752e6836f881345b7f7be07724d3c9
+guid: 3f5a41bdb5b0f92438090955b9a4f637
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3479481073323317570
-    second: botao_config_0
+      213: 1540093218646918687
+    second: jogar_3_G_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: botao_config_0
+      name: jogar_3_G_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 112
-        height: 124
+        y: 7
+        width: 64
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2499122e999994030800000000000000
-      internalID: 3479481073323317570
+      spriteID: f1600726f928f5510800000000000000
+      internalID: 1540093218646918687
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      botao_config_0: 3479481073323317570
+      jogar_3_G_0: 1540093218646918687
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

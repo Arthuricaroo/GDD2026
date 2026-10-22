@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 457994456ce3b184b868a01d58744f6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5499361150958551623
+    second: pixacao_gravidade_0
+  - first:
+      213: 2053705606562778180
+    second: pixacao_gravidade_1
+  - first:
+      213: 8629402932728461647
+    second: pixacao_gravidade_2
+  - first:
+      213: -6773169442757252562
+    second: pixacao_gravidade_3
+  - first:
+      213: -3874178556545688327
+    second: pixacao_gravidade_4
+  - first:
+      213: -5021785026721245644
+    second: pixacao_gravidade_5
+  - first:
+      213: 4435808940203477514
+    second: pixacao_gravidade_6
+  - first:
+      213: 5085176889138439674
+    second: pixacao_gravidade_7
+  - first:
+      213: 1697392296093283021
+    second: pixacao_gravidade_8
+  - first:
+      213: -4886601758570996421
+    second: pixacao_gravidade_9
+  - first:
+      213: -5235631982990117566
+    second: pixacao_gravidade_10
+  - first:
+      213: -3085692016147192975
+    second: pixacao_gravidade_11
+  - first:
+      213: -4496899587456438502
+    second: pixacao_gravidade_12
+  - first:
+      213: -1296082550292044385
+    second: pixacao_gravidade_13
+  - first:
+      213: -6439732169647234223
+    second: pixacao_gravidade_14
+  - first:
+      213: 2598842510142379724
+    second: pixacao_gravidade_15
+  - first:
+      213: 1137452870961779985
+    second: pixacao_gravidade_16
+  - first:
+      213: -1126676572768766589
+    second: pixacao_gravidade_17
+  - first:
+      213: -1092008693793597072
+    second: pixacao_gravidade_18
+  - first:
+      213: -8261878450317716677
+    second: pixacao_gravidade_19
+  - first:
+      213: 8914564222193700248
+    second: pixacao_gravidade_20
+  - first:
+      213: -8925325545754913224
+    second: pixacao_gravidade_21
+  - first:
+      213: 1323165215047009253
+    second: pixacao_gravidade_22
+  - first:
+      213: 3675916114771816721
+    second: pixacao_gravidade_23
+  - first:
+      213: -2935412477031330146
+    second: pixacao_gravidade_24
+  - first:
+      213: 4985554964687010946
+    second: pixacao_gravidade_25
+  - first:
+      213: 1168009589631802663
+    second: pixacao_gravidade_26
+  - first:
+      213: -7286290182947350814
+    second: pixacao_gravidade_27
+  - first:
+      213: -835908913920193128
+    second: pixacao_gravidade_28
+  - first:
+      213: -5123270485751124837
+    second: pixacao_gravidade_29
+  - first:
+      213: -3154276688462996651
+    second: pixacao_gravidade_30
+  - first:
+      213: -9166725584566387861
+    second: pixacao_gravidade_31
+  - first:
+      213: 5429656009376475699
+    second: pixacao_gravidade_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixacao_gravidade_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742c77674d7a15c40800000000000000
+      internalID: 5499361150958551623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c07604e5a308c10800000000000000
+      internalID: 2053705606562778180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f497efc2f3cc1c770800000000000000
+      internalID: 8629402932728461647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a6ce0174ed002a0800000000000000
+      internalID: -6773169442757252562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc98ac01272c3ac0800000000000000
+      internalID: -3874178556545688327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43697efef190f4ab0800000000000000
+      internalID: -5021785026721245644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a845caab82f8d30800000000000000
+      internalID: 4435808940203477514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af56f11307d229640800000000000000
+      internalID: 5085176889138439674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2ff15dc495e8710800000000000000
+      internalID: 1697392296093283021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d9395479d4f2cb0800000000000000
+      internalID: -4886601758570996421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2453337737c4757b0800000000000000
+      internalID: -5235631982990117566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173a943c57b6d25d0800000000000000
+      internalID: -3085692016147192975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fee0b96adc791c0800000000000000
+      internalID: -4496899587456438502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95a24699c3630ee0800000000000000
+      internalID: -1296082550292044385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_14
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 11
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153658bf5b971a6a0800000000000000
+      internalID: -6439732169647234223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 24
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc698346e71f01420800000000000000
+      internalID: 2598842510142379724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115dc621c5b09cf00800000000000000
+      internalID: 1137452870961779985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 24
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385fc5f50ad3d50f0800000000000000
+      internalID: -1126676572768766589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0795bc2f0e768d0f0800000000000000
+      internalID: -1092008693793597072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b339b5f9259e75d80800000000000000
+      internalID: -8261878450317716677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_20
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 24
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d034fbde4e6bb70800000000000000
+      internalID: 8914564222193700248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8361f8c54bfd22480800000000000000
+      internalID: -8925325545754913224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_22
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3c70ea0c3dc5210800000000000000
+      internalID: 1323165215047009253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111bb150b3a730330800000000000000
+      internalID: 3675916114771816721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e4c4597e15347d0800000000000000
+      internalID: -2935412477031330146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cba5663df303540800000000000000
+      internalID: 4985554964687010946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_26
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dd04c888a953010800000000000000
+      internalID: 1168009589631802663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6d10bdea5e1ea90800000000000000
+      internalID: -7286290182947350814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_28
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d443985414664f0800000000000000
+      internalID: -835908913920193128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9caf8033ac76e8b0800000000000000
+      internalID: -5123270485751124837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_30
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b1edc5012c934d0800000000000000
+      internalID: -3154276688462996651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b7f62f5af39c080800000000000000
+      internalID: -9166725584566387861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_gravidade_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a237b7f530a5b40800000000000000
+      internalID: 5429656009376475699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixacao_gravidade_0: 5499361150958551623
+      pixacao_gravidade_1: 2053705606562778180
+      pixacao_gravidade_10: -5235631982990117566
+      pixacao_gravidade_11: -3085692016147192975
+      pixacao_gravidade_12: -4496899587456438502
+      pixacao_gravidade_13: -1296082550292044385
+      pixacao_gravidade_14: -6439732169647234223
+      pixacao_gravidade_15: 2598842510142379724
+      pixacao_gravidade_16: 1137452870961779985
+      pixacao_gravidade_17: -1126676572768766589
+      pixacao_gravidade_18: -1092008693793597072
+      pixacao_gravidade_19: -8261878450317716677
+      pixacao_gravidade_2: 8629402932728461647
+      pixacao_gravidade_20: 8914564222193700248
+      pixacao_gravidade_21: -8925325545754913224
+      pixacao_gravidade_22: 1323165215047009253
+      pixacao_gravidade_23: 3675916114771816721
+      pixacao_gravidade_24: -2935412477031330146
+      pixacao_gravidade_25: 4985554964687010946
+      pixacao_gravidade_26: 1168009589631802663
+      pixacao_gravidade_27: -7286290182947350814
+      pixacao_gravidade_28: -835908913920193128
+      pixacao_gravidade_29: -5123270485751124837
+      pixacao_gravidade_3: -6773169442757252562
+      pixacao_gravidade_30: -3154276688462996651
+      pixacao_gravidade_31: -9166725584566387861
+      pixacao_gravidade_32: 5429656009376475699
+      pixacao_gravidade_4: -3874178556545688327
+      pixacao_gravidade_5: -5021785026721245644
+      pixacao_gravidade_6: 4435808940203477514
+      pixacao_gravidade_7: 5085176889138439674
+      pixacao_gravidade_8: 1697392296093283021
+      pixacao_gravidade_9: -4886601758570996421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
