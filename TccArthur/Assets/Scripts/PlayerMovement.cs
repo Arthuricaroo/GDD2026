@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity.y
         );
 
-        // Verifica chão
+        // Verifica chão (ou teto, quando a gravidade está invertida)
         isGrounded = Physics2D.OverlapCircle(
             groundCheck.position,
             groundRadius,
@@ -43,9 +43,12 @@ public class PlayerMovement : MonoBehaviour
         // Pulo
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
+            // Gravidade para baixo: pula para cima (+1). Invertida: pula para baixo (-1).
+            float direcaoPulo = Physics2D.gravity.y < 0 ? 1f : -1f;
+
             rb.linearVelocity = new Vector2(
                 rb.linearVelocity.x,
-                jumpForce
+                jumpForce * direcaoPulo
             );
         }
 

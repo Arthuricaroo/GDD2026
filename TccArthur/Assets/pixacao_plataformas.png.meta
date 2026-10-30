@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: 355430341a49ecb41aca05c97ae82711
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 306228305957644232
+    second: pixacao_plataformas_0
+  - first:
+      213: -3457967924520576581
+    second: pixacao_plataformas_1
+  - first:
+      213: -4166743969941403886
+    second: pixacao_plataformas_2
+  - first:
+      213: 1624422883976730518
+    second: pixacao_plataformas_3
+  - first:
+      213: -9222221405212808068
+    second: pixacao_plataformas_4
+  - first:
+      213: -674119965099649000
+    second: pixacao_plataformas_5
+  - first:
+      213: 3476596673756182157
+    second: pixacao_plataformas_6
+  - first:
+      213: 4548042711356536812
+    second: pixacao_plataformas_7
+  - first:
+      213: 267304597570166274
+    second: pixacao_plataformas_8
+  - first:
+      213: -476344619244636165
+    second: pixacao_plataformas_9
+  - first:
+      213: -3804538680055620783
+    second: pixacao_plataformas_10
+  - first:
+      213: -5003599444851381093
+    second: pixacao_plataformas_11
+  - first:
+      213: 8322202748174607939
+    second: pixacao_plataformas_12
+  - first:
+      213: 710148830715135837
+    second: pixacao_plataformas_13
+  - first:
+      213: -9068892883390171130
+    second: pixacao_plataformas_14
+  - first:
+      213: 5736556101844402270
+    second: pixacao_plataformas_15
+  - first:
+      213: -9034189690530607038
+    second: pixacao_plataformas_16
+  - first:
+      213: 4443224007981674749
+    second: pixacao_plataformas_17
+  - first:
+      213: -7989005501017281932
+    second: pixacao_plataformas_18
+  - first:
+      213: 3617635332148597874
+    second: pixacao_plataformas_19
+  - first:
+      213: 4688994378905737786
+    second: pixacao_plataformas_20
+  - first:
+      213: -4545876074926455072
+    second: pixacao_plataformas_21
+  - first:
+      213: 4523116257575595058
+    second: pixacao_plataformas_22
+  - first:
+      213: -249518435346560466
+    second: pixacao_plataformas_23
+  - first:
+      213: 2965513762855627632
+    second: pixacao_plataformas_24
+  - first:
+      213: -5084964086235874031
+    second: pixacao_plataformas_25
+  - first:
+      213: 4995616805005099991
+    second: pixacao_plataformas_26
+  - first:
+      213: 7125296584492546230
+    second: pixacao_plataformas_27
+  - first:
+      213: -7212309483478171046
+    second: pixacao_plataformas_28
+  - first:
+      213: 1293292687611880613
+    second: pixacao_plataformas_29
+  - first:
+      213: 4313708040402967028
+    second: pixacao_plataformas_30
+  - first:
+      213: 6491379679787210126
+    second: pixacao_plataformas_31
+  - first:
+      213: -1291748179224223027
+    second: pixacao_plataformas_32
+  - first:
+      213: -484429215547929805
+    second: pixacao_plataformas_33
+  - first:
+      213: 7620652456045442484
+    second: pixacao_plataformas_34
+  - first:
+      213: -6511802306465768011
+    second: pixacao_plataformas_35
+  - first:
+      213: 5053643290089992427
+    second: pixacao_plataformas_36
+  - first:
+      213: -6006388694671574892
+    second: pixacao_plataformas_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixacao_plataformas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c766c49501ff3400800000000000000
+      internalID: 306228305957644232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 42
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb991466e74d200d0800000000000000
+      internalID: -3457967924520576581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 42
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21744a98f60cc26c0800000000000000
+      internalID: -4166743969941403886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 42
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697d274a10c1b8610800000000000000
+      internalID: 1624422883976730518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 42
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c694e4e76140080800000000000000
+      internalID: -9222221405212808068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 42
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8189c30a67b05a6f0800000000000000
+      internalID: -674119965099649000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 41
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86ba86414a5f3030800000000000000
+      internalID: 3476596673756182157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 42
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7f5b9dfb4ed1f30800000000000000
+      internalID: 4548042711356536812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 40
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e9ff08d18a5b300800000000000000
+      internalID: 267304597570166274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_9
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 42
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf73143b71fa369f0800000000000000
+      internalID: -476344619244636165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 42
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b1d015a30933bc0800000000000000
+      internalID: -3804538680055620783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9caa4ba0d4af8ab0800000000000000
+      internalID: -5003599444851381093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 30
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3462ab97e476e7370800000000000000
+      internalID: 8322202748174607939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d574f685994fad900800000000000000
+      internalID: 710148830715135837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608f57bb8f1d42280800000000000000
+      internalID: -9068892883390171130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 30
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50098c81675c9f40800000000000000
+      internalID: 5736556101844402270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2405d66775c10a280800000000000000
+      internalID: -9034189690530607038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 30
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df03c3da1b089ad30800000000000000
+      internalID: 4443224007981674749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a293b03d9512190800000000000000
+      internalID: -7989005501017281932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 28
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2749e93ea2c643230800000000000000
+      internalID: 3617635332148597874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_20
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 30
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ada745b87a21140800000000000000
+      internalID: 4688994378905737786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 17
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6cf018bcdc9e0c0800000000000000
+      internalID: -4545876074926455072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 28
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c6692954655ce30800000000000000
+      internalID: 4523116257575595058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ac1481e48898cf0800000000000000
+      internalID: -249518435346560466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 14
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07baa8b2e0f972920800000000000000
+      internalID: 2965513762855627632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dba48da149e69b0800000000000000
+      internalID: -5084964086235874031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_26
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d30d48240ff35540800000000000000
+      internalID: 4995616805005099991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b87bfdfd7322e260800000000000000
+      internalID: 7125296584492546230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_28
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a524a1bbcbab8eb90800000000000000
+      internalID: -7212309483478171046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a467b3e8d2b2f110800000000000000
+      internalID: 1293292687611880613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_30
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f917f49b9e5ddb30800000000000000
+      internalID: 4313708040402967028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 61
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85d7eb0d63061a50800000000000000
+      internalID: 6491379679787210126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2251effd9c21ee0800000000000000
+      internalID: -1291748179224223027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_33
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bc170f136f649f0800000000000000
+      internalID: -484429215547929805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_34
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5fb47680ff1c960800000000000000
+      internalID: 7620652456045442484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_35
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdd983ad4e61a5a0800000000000000
+      internalID: -6511802306465768011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_36
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0b9570cc5222640800000000000000
+      internalID: 5053643290089992427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_plataformas_37
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 3
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498bd2f2e4505aca0800000000000000
+      internalID: -6006388694671574892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixacao_plataformas_0: 306228305957644232
+      pixacao_plataformas_1: -3457967924520576581
+      pixacao_plataformas_10: -3804538680055620783
+      pixacao_plataformas_11: -5003599444851381093
+      pixacao_plataformas_12: 8322202748174607939
+      pixacao_plataformas_13: 710148830715135837
+      pixacao_plataformas_14: -9068892883390171130
+      pixacao_plataformas_15: 5736556101844402270
+      pixacao_plataformas_16: -9034189690530607038
+      pixacao_plataformas_17: 4443224007981674749
+      pixacao_plataformas_18: -7989005501017281932
+      pixacao_plataformas_19: 3617635332148597874
+      pixacao_plataformas_2: -4166743969941403886
+      pixacao_plataformas_20: 4688994378905737786
+      pixacao_plataformas_21: -4545876074926455072
+      pixacao_plataformas_22: 4523116257575595058
+      pixacao_plataformas_23: -249518435346560466
+      pixacao_plataformas_24: 2965513762855627632
+      pixacao_plataformas_25: -5084964086235874031
+      pixacao_plataformas_26: 4995616805005099991
+      pixacao_plataformas_27: 7125296584492546230
+      pixacao_plataformas_28: -7212309483478171046
+      pixacao_plataformas_29: 1293292687611880613
+      pixacao_plataformas_3: 1624422883976730518
+      pixacao_plataformas_30: 4313708040402967028
+      pixacao_plataformas_31: 6491379679787210126
+      pixacao_plataformas_32: -1291748179224223027
+      pixacao_plataformas_33: -484429215547929805
+      pixacao_plataformas_34: 7620652456045442484
+      pixacao_plataformas_35: -6511802306465768011
+      pixacao_plataformas_36: 5053643290089992427
+      pixacao_plataformas_37: -6006388694671574892
+      pixacao_plataformas_4: -9222221405212808068
+      pixacao_plataformas_5: -674119965099649000
+      pixacao_plataformas_6: 3476596673756182157
+      pixacao_plataformas_7: 4548042711356536812
+      pixacao_plataformas_8: 267304597570166274
+      pixacao_plataformas_9: -476344619244636165
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

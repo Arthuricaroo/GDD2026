@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: bb2caa796259d994fa196d1ff6f8c06c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2112223632834287582
+    second: pixacao_teto_0
+  - first:
+      213: 5055512558126829238
+    second: pixacao_teto_1
+  - first:
+      213: -5703658382514416297
+    second: pixacao_teto_2
+  - first:
+      213: -5024697938373936708
+    second: pixacao_teto_3
+  - first:
+      213: -1460398453046853339
+    second: pixacao_teto_4
+  - first:
+      213: -9188299167700498787
+    second: pixacao_teto_5
+  - first:
+      213: -6637590839079530498
+    second: pixacao_teto_6
+  - first:
+      213: -5102423879003721468
+    second: pixacao_teto_7
+  - first:
+      213: 7358018215012147879
+    second: pixacao_teto_8
+  - first:
+      213: -7625517351620103444
+    second: pixacao_teto_9
+  - first:
+      213: 6893702221991040020
+    second: pixacao_teto_10
+  - first:
+      213: 8097504562654706529
+    second: pixacao_teto_11
+  - first:
+      213: -2199529829951830330
+    second: pixacao_teto_12
+  - first:
+      213: 3165620853941578694
+    second: pixacao_teto_13
+  - first:
+      213: -5196850071688079491
+    second: pixacao_teto_14
+  - first:
+      213: -1886219937179593894
+    second: pixacao_teto_15
+  - first:
+      213: -8842714986738684946
+    second: pixacao_teto_16
+  - first:
+      213: 3976324758105172722
+    second: pixacao_teto_17
+  - first:
+      213: 5328716046567808699
+    second: pixacao_teto_18
+  - first:
+      213: 8317101281371302464
+    second: pixacao_teto_19
+  - first:
+      213: -4838200484494634284
+    second: pixacao_teto_20
+  - first:
+      213: -2198644763287154403
+    second: pixacao_teto_21
+  - first:
+      213: 2419009371557871260
+    second: pixacao_teto_22
+  - first:
+      213: -108845661181924494
+    second: pixacao_teto_23
+  - first:
+      213: 5504318347030750008
+    second: pixacao_teto_24
+  - first:
+      213: 5715724421888564059
+    second: pixacao_teto_25
+  - first:
+      213: -3167322980451500941
+    second: pixacao_teto_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixacao_teto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7d549f330205d10800000000000000
+      internalID: 2112223632834287582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be0da8e2e9c82640800000000000000
+      internalID: 5055512558126829238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7559c0e9be888d0b0800000000000000
+      internalID: -5703658382514416297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 29
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb97597d8dfa44ab0800000000000000
+      internalID: -5024697938373936708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521cc9f285f9bbbe0800000000000000
+      internalID: -1460398453046853339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96c133b69a9c7080800000000000000
+      internalID: -9188299167700498787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 28
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff0740ac4a82e3a0800000000000000
+      internalID: -6637590839079530498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401338e048c8039b0800000000000000
+      internalID: -5102423879003721468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a227a4059eec1660800000000000000
+      internalID: 7358018215012147879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce23b14de58bc2690800000000000000
+      internalID: -7625517351620103444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 28
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414d81185a95baf50800000000000000
+      internalID: 6893702221991040020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 29
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b73205f7d106070800000000000000
+      internalID: 8097504562654706529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 12
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c688d4f543b971e0800000000000000
+      internalID: -2199529829951830330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cba1ccf46b8eeb20800000000000000
+      internalID: 3165620853941578694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d779116d46411e7b0800000000000000
+      internalID: -5196850071688079491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a539624f5fcc2d5e0800000000000000
+      internalID: -1886219937179593894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 16
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebea6df19d584580800000000000000
+      internalID: -8842714986738684946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 14
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa237ecc4ebe2730800000000000000
+      internalID: 3976324758105172722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe1998f20763f940800000000000000
+      internalID: 5328716046567808699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a251dac874c6370800000000000000
+      internalID: 8317101281371302464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 16
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d213911b424bdcb0800000000000000
+      internalID: -4838200484494634284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d111ff89c38dc71e0800000000000000
+      internalID: -2198644763287154403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e3c0cf43c029120800000000000000
+      internalID: 2419009371557871260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_23
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ba8e5a27d4d7ef0800000000000000
+      internalID: -108845661181924494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_24
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833ee6d9f54436c40800000000000000
+      internalID: 5504318347030750008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b51b81415525f40800000000000000
+      internalID: 5715724421888564059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixacao_teto_26
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cb14dc7886b04d0800000000000000
+      internalID: -3167322980451500941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixacao_teto_0: 2112223632834287582
+      pixacao_teto_1: 5055512558126829238
+      pixacao_teto_10: 6893702221991040020
+      pixacao_teto_11: 8097504562654706529
+      pixacao_teto_12: -2199529829951830330
+      pixacao_teto_13: 3165620853941578694
+      pixacao_teto_14: -5196850071688079491
+      pixacao_teto_15: -1886219937179593894
+      pixacao_teto_16: -8842714986738684946
+      pixacao_teto_17: 3976324758105172722
+      pixacao_teto_18: 5328716046567808699
+      pixacao_teto_19: 8317101281371302464
+      pixacao_teto_2: -5703658382514416297
+      pixacao_teto_20: -4838200484494634284
+      pixacao_teto_21: -2198644763287154403
+      pixacao_teto_22: 2419009371557871260
+      pixacao_teto_23: -108845661181924494
+      pixacao_teto_24: 5504318347030750008
+      pixacao_teto_25: 5715724421888564059
+      pixacao_teto_26: -3167322980451500941
+      pixacao_teto_3: -5024697938373936708
+      pixacao_teto_4: -1460398453046853339
+      pixacao_teto_5: -9188299167700498787
+      pixacao_teto_6: -6637590839079530498
+      pixacao_teto_7: -5102423879003721468
+      pixacao_teto_8: 7358018215012147879
+      pixacao_teto_9: -7625517351620103444
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
