@@ -3,12 +3,12 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
     [Header("Vela")]
-    public Animator velaAnimator;           // Animator do objeto Vela
-    public GameObject luzDaVela;            // opcional: Light2D, comeca desligado
-    public float atrasoLuz = 0.4f;          // tempo ate a luz acender
+    public Animator velaAnimator;           
+    public GameObject luzDaVela;       
+    public float atrasoLuz = 0.4f;      
 
     [Header("Respawn")]
-    public Transform pontoRespawn;          // opcional: se vazio, usa a posicao da mesa
+    public Transform pontoRespawn;          
 
     private bool activated = false;
 
@@ -25,7 +25,7 @@ public class Checkpoint : MonoBehaviour
         KillPlayer.SetRespawnPoint(pontoRespawn != null ? pontoRespawn : transform);
         activated = true;
 
-        // Acende a vela
+        
         if (velaAnimator != null) velaAnimator.SetTrigger("Acender");
         if (luzDaVela != null) Invoke(nameof(AcenderLuz), atrasoLuz);
     }
