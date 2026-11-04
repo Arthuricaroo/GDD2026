@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5de2e1540fdc3b340ae85dbcc0509866
+guid: c5cf1716c3799b845ba745abbe98060b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -964803004729506035
-    second: poca_0
+      213: 6390799291218902089
+    second: poca_gosma_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: poca_0
+      name: poca_gosma_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 144
-        height: 32
+        width: 32
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d074ed867c45c92f0800000000000000
-      internalID: -964803004729506035
+      spriteID: 94cbbef681ea0b850800000000000000
+      internalID: 6390799291218902089
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      poca_0: -964803004729506035
+      poca_gosma_0: 6390799291218902089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8061877b83856864ea7e609cceaf2687
+guid: e623cb25fbb5a7f49a3b1fd07d469818
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9109286158844226861
-    second: cano_teto_0
+      213: -3373464671757743492
+    second: fogao_queimado_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cano_teto_0
+      name: fogao_queimado_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 54
-        height: 32
+        width: 32
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d215b86080559180800000000000000
-      internalID: -9109286158844226861
+      spriteID: c7acc8121cb0f21d0800000000000000
+      internalID: -3373464671757743492
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cano_teto_0: -9109286158844226861
+      fogao_queimado_0: -3373464671757743492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

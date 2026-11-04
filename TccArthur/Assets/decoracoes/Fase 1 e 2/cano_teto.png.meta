@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d95cfd803ab7e984684cd78b78d585a8
+guid: 8061877b83856864ea7e609cceaf2687
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1594735419946387392
-    second: pilha_livros (1)_0
+      213: -9109286158844226861
+    second: cano_teto_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pilha_livros (1)_0
+      name: cano_teto_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 13
-        height: 10
+        width: 54
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 048bc57b59c5ed9e0800000000000000
-      internalID: -1594735419946387392
+      spriteID: 3d215b86080559180800000000000000
+      internalID: -9109286158844226861
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pilha_livros (1)_0: -1594735419946387392
+      cano_teto_0: -9109286158844226861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

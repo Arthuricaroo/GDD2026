@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1015016a37cfcd44f962efa29ee07eac
+guid: 418bb61539e1c9c45bd1455219075960
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4543085275223865627
-    second: lampada_0
+      213: -8083846159093296911
+    second: prateleira_destruida_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lampada_0
+      name: prateleira_destruida_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 27
-        width: 54
-        height: 149
+        x: 0
+        y: 1
+        width: 60
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b19b60eccf74c0f30800000000000000
-      internalID: 4543085275223865627
+      spriteID: 1f096549fb860df80800000000000000
+      internalID: -8083846159093296911
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lampada_0: 4543085275223865627
+      prateleira_destruida_0: -8083846159093296911
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

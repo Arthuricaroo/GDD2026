@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 316c6b1a6bea9154fbb37d0773948a5b
+guid: 1015016a37cfcd44f962efa29ee07eac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6515637861123525921
-    second: garrafa_verde_0
+      213: 4543085275223865627
+    second: lampada_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: garrafa_verde_0
+      name: lampada_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 6
-        height: 12
+        x: 7
+        y: 27
+        width: 54
+        height: 149
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd275aaf2edc395a0800000000000000
-      internalID: -6515637861123525921
+      spriteID: b19b60eccf74c0f30800000000000000
+      internalID: 4543085275223865627
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      garrafa_verde_0: -6515637861123525921
+      lampada_0: 4543085275223865627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

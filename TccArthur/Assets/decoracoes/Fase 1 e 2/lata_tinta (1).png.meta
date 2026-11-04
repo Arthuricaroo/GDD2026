@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8b420522a43d5ee44a4a73ed70c8d9fa
+guid: f6b0b637ef26bbc47b4869f45b1f218a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8000118307714248410
-    second: lata (1)_0
+      213: -4375169991742013818
+    second: lata_tinta (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lata (1)_0
+      name: lata_tinta (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 7
-        height: 8
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 621d79b19ced9f090800000000000000
-      internalID: -8000118307714248410
+      spriteID: 68eb44ab2164843c0800000000000000
+      internalID: -4375169991742013818
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lata (1)_0: -8000118307714248410
+      lata_tinta (1)_0: -4375169991742013818
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
