@@ -26,7 +26,7 @@ public class KillPlayer : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (respawning) return;   // evita respawn duplicado
+        if (respawning) return;   
         if (!other.gameObject.CompareTag("Player")) return;
 
         StartCoroutine(RespawnRoutine());
@@ -47,7 +47,7 @@ public class KillPlayer : MonoBehaviour
         Player.transform.position = checkpointAtual.position;
 
         if (playerRb != null)
-            playerRb.linearVelocity = Vector2.zero;   // zera a velocidade da queda
+            playerRb.linearVelocity = Vector2.zero;   
 
         Player.SetActive(true);
         respawning = false;

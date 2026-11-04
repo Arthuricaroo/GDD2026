@@ -3,21 +3,6 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-/// <summary>
-/// Porta / saida de fase. Quando o jogador encosta, a porta abre (se tiver sprite de porta aberta),
-/// a tela escurece e a proxima fase e carregada.
-///
-/// Como usar:
-///  1. Arraste o sprite (porta_fechada ou saida_porao) para a cena e posicione no chao, junto da parede.
-///  2. Adicione um Box Collider 2D, marque "Is Trigger" e ajuste para cobrir a porta (ou so o vao dela).
-///  3. Adicione este script.
-///  4. Escreva o nome da proxima cena em "Nome Da Proxima Fase". Se deixar vazio, vai para a
-///     cena seguinte da lista (File > Build Profiles > Scene List). As cenas PRECISAM estar nessa lista.
-///  5. (Opcional) Porta: arraste porta_aberta em "Sprite Aberta". Saida do porao: deixe vazio.
-///  6. (Opcional) Fade: crie um Image preto em tela cheia dentro do Canvas, adicione um CanvasGroup
-///     (Alpha 0, desmarque Interactable e Blocks Raycasts) e arraste em "Fade Tela".
-///  O jogador precisa estar com a Tag "Player".
-/// </summary>
 [RequireComponent(typeof(Collider2D))]
 public class PortaProximaFase : MonoBehaviour
 {
@@ -37,13 +22,25 @@ public class PortaProximaFase : MonoBehaviour
     public CanvasGroup fadeTela;
     public UnityEvent aoEntrar;
 
+    [Header("Áudio")]                                      // NOVO
+    public AudioClip somSting;                             // NOVO
+    [Range(0f, 1f)] public float volumeSting = 0.6f;       // NOVO
+
     bool _usada;
+    AudioSource _audio;                                    // NOVO
 
     void Reset()
     {
-        // ao adicionar o script, ja deixa o collider como trigger
         var c = GetComponent<Collider2D>();
         if (c != null) c.isTrigger = true;
+    }
+
+    void Awake()                                           // NOVO
+    {
+        _audio = gameObject.AddComponent<AudioSource>();
+        _audio.playOnAwake = false;
+        _audio.loop = false;
+        _audio.spatialBlend = 0f; // 2D: toca inteiro, independente da distância
     }
 
     void OnTriggerEnter2D(Collider2D outro)
@@ -56,6 +53,8 @@ public class PortaProximaFase : MonoBehaviour
     IEnumerator Entrar(Collider2D jogador)
     {
         aoEntrar?.Invoke();
+
+        if (somSting != null) _audio.PlayOneShot(somSting, volumeSting);   // NOVO
 
         if (congelarJogador)
         {
