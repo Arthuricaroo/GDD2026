@@ -2,24 +2,29 @@ using UnityEngine;
 
 public class Refugo : MonoBehaviour
 {
-    [Header("Referências")]
+    [Header("Referencias")]
     public Transform player;
 
     [Header("Velocidades")]
     public float patrolSpeed = 1.5f;
     public float chaseSpeed = 3f;
 
-    [Header("Área de atuação (distância a partir do ponto inicial)")]
+    [Header("Area de atuacao (distancia a partir do ponto inicial)")]
     public float leftLimit = 3f;   // quanto pode ir pra esquerda
     public float rightLimit = 3f;  // quanto pode ir pra direita
 
-    [Header("Perseguição")]
-    public float detectRange = 4f; // distância pra começar a seguir
-    public bool patrol = true;     // false = fica parada até o player chegar
+    [Header("Perseguicao")]
+    public float detectRange = 4f; // distancia pra comecar a seguir
+    public bool patrol = true;     // false = fica parada ate o player chegar
+
+    [Header("Direcao do sprite")]
+    public bool idleOlhaPraDireita = true;      // marque se o sprite do idle foi desenhado olhando pra direita
+    public bool perseguirOlhaPraDireita = true; // marque se o sprite de perseguir foi desenhado olhando pra direita
 
     Rigidbody2D rb;
     Animator anim;
     float minX, maxX;
+    Vector2 posicaoInicial;
     int dir = 1;
     bool chasing;
 
@@ -27,8 +32,30 @@ public class Refugo : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        minX = transform.position.x - leftLimit;
-        maxX = transform.position.x + rightLimit;
+        posicaoInicial = transform.position;
+        minX = posicaoInicial.x - leftLimit;
+        maxX = posicaoInicial.x + rightLimit;
+    }
+
+    void OnEnable()
+    {
+        EventosJogo.PlayerMorreu += VoltarAoCentro;
+    }
+
+    void OnDisable()
+    {
+        EventosJogo.PlayerMorreu -= VoltarAoCentro;
+    }
+
+    // Chamado quando o player morre: volta pro ponto inicial e para de perseguir
+    void VoltarAoCentro()
+    {
+        rb.position = posicaoInicial;
+        transform.position = posicaoInicial;
+        rb.linearVelocity = Vector2.zero;
+        dir = 1;
+        SetChasing(false);
+        UpdateFacing();
     }
 
     void FixedUpdate()
@@ -54,7 +81,7 @@ public class Refugo : MonoBehaviour
             vx = dir * patrolSpeed;
         }
 
-        // nunca sai da área definida
+        // nunca sai da area definida
         if ((x >= maxX && vx > 0) || (x <= minX && vx < 0))
             vx = 0f;
 
@@ -64,12 +91,17 @@ public class Refugo : MonoBehaviour
 
     void UpdateChaseState()
     {
-        if (player == null) { SetChasing(false); return; }
+        // sem player, ou com o player morto (desativado), nao persegue
+        if (player == null || !player.gameObject.activeInHierarchy)
+        {
+            SetChasing(false);
+            return;
+        }
 
         float dist = Vector2.Distance(transform.position, player.position);
         bool playerInArea = player.position.x >= minX && player.position.x <= maxX;
 
-        // quando já está perseguindo, tolera um pouco mais de distância
+        // quando ja esta perseguindo, tolera um pouco mais de distancia
         float range = chasing ? detectRange * 1.3f : detectRange;
 
         SetChasing(dist <= range && playerInArea);
@@ -83,18 +115,21 @@ public class Refugo : MonoBehaviour
 
     void UpdateFacing()
     {
+        // usa a direcao do sprite da animacao que esta tocando agora
+        bool spriteOlhaDireita = chasing ? perseguirOlhaPraDireita : idleOlhaPraDireita;
+        int lado = spriteOlhaDireita ? dir : -dir;
+
         Vector3 s = transform.localScale;
-        s.x = Mathf.Abs(s.x) * dir;
+        s.x = Mathf.Abs(s.x) * lado;
         transform.localScale = s;
     }
 
-    // mostra a área no Scene view
+    // mostra a area no Scene view
     void OnDrawGizmosSelected()
     {
-        float baseX = Application.isPlaying ? (minX + leftLimit) : transform.position.x;
-        Vector3 y = new Vector3(0, transform.position.y, 0);
+        float baseX = Application.isPlaying ? posicaoInicial.x : transform.position.x;
         Gizmos.color = Color.green;
-        Gizmos.DrawLine(new Vector3(baseX - leftLimit, y.y, 0), new Vector3(baseX + rightLimit, y.y, 0));
+        Gizmos.DrawLine(new Vector3(baseX - leftLimit, transform.position.y, 0), new Vector3(baseX + rightLimit, transform.position.y, 0));
         Gizmos.DrawWireSphere(transform.position, detectRange);
     }
 }

@@ -7,7 +7,7 @@ public class KillPlayer : MonoBehaviour
     public Transform respawnPoint;          // ponto inicial (arraste no Inspector)
     public float respawnDelay = 1.5f;
 
-    // Compartilhado por TODOS os obstáculos
+    // Compartilhado por TODOS os obstaculos
     public static Transform checkpointAtual;
     private static bool respawning = false;
 
@@ -19,14 +19,14 @@ public class KillPlayer : MonoBehaviour
         gravityScript = Player.GetComponent<GravityInverter>();
         playerRb = Player.GetComponent<Rigidbody2D>();
 
-        // Define o ponto inicial só se ainda não existir um válido
+        // Define o ponto inicial so se ainda nao existir um valido
         if (checkpointAtual == null)
             checkpointAtual = respawnPoint;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (respawning) return;   
+        if (respawning) return;
         if (!other.gameObject.CompareTag("Player")) return;
 
         StartCoroutine(RespawnRoutine());
@@ -39,6 +39,9 @@ public class KillPlayer : MonoBehaviour
 
         Player.SetActive(false);
 
+        // Avisa os mobs (Refugo e Rato) para voltarem ao ponto inicial
+        EventosJogo.AvisarMorteDoPlayer();
+
         if (gravityScript != null)
             gravityScript.ResetGravity();
 
@@ -47,7 +50,7 @@ public class KillPlayer : MonoBehaviour
         Player.transform.position = checkpointAtual.position;
 
         if (playerRb != null)
-            playerRb.linearVelocity = Vector2.zero;   
+            playerRb.linearVelocity = Vector2.zero;
 
         Player.SetActive(true);
         respawning = false;
