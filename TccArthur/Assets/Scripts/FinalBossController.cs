@@ -21,9 +21,13 @@ public class FinalBossController : MonoBehaviour
 
     public LayerMask groundLayer;
 
+    [Header("Perseguir o player")]
+    public bool followPlayer = true;      // desmarque para voltar ao sorteio de esquerda/direita
+    public float stopDistance = 1.5f;     // distância em que ele para de andar perto do player
+
     [Header("Vida (cai quando o player desvia)")]
     public float maxHealth = 30f;
-    public float dodgeDamage = 1f;        // vida que cada garrafa desviada tira
+    public float dodgeDamage = 1f;        // vida que cada arremesso desviado tira (dividida entre as garrafas dele)
     public float healOnPlayerHit = 1f;    // vida que o boss recupera se acertar o player (0 desliga)
     public Slider healthBar;              // opcional
 
@@ -35,6 +39,12 @@ public class FinalBossController : MonoBehaviour
     public float animSpeedAtMaxRage = 1.3f;
     public Color angryTint = new Color(1f, 0.45f, 0.45f);
 
+    [Header("Garrafas laterais (voam retas, dos dois lados e nas duas alturas)")]
+    public float straightSpeed = 6f;          // velocidade das garrafas retas
+    public float straightLifeTime = 4f;       // quanto tempo elas voam (distância = velocidade x tempo)
+    public float sideSpawnOffsetX = 1.5f;     // distância do centro do boss de onde elas nascem
+    public Transform ceilingBottlePoint;      // objeto vazio na altura do player quando ele está no teto
+
     [Header("Ataques especiais")]
     [Range(0f, 1f)] public float specialChanceMin = 0.2f;  // com raiva zerada
     [Range(0f, 1f)] public float specialChanceMax = 0.7f;  // com raiva no máximo
@@ -42,7 +52,7 @@ public class FinalBossController : MonoBehaviour
     [Header("Rajada de garrafas")]
     public int burstCountMin = 3;
     public int burstCountMax = 7;
-    public float burstInterval = 0.35f;
+    public float burstInterval = 0.8f;
 
     [Header("Garrafa mirada no player")]
     public float aimedSpeed = 9f;
@@ -125,6 +135,17 @@ public class FinalBossController : MonoBehaviour
         return player;
     }
 
+    // Direção (-1 esquerda, 1 direita) até o player. Se não achar o player, mantém a atual.
+    private int DirectionToPlayer()
+    {
+        Transform target = GetPlayer();
+
+        if (target == null)
+            return direction;
+
+        return target.position.x >= transform.position.x ? 1 : -1;
+    }
+
     // ---------- Chamados pelas garrafas ----------
     public void OnBottleDodged(float weight)
     {
@@ -181,8 +202,11 @@ public class FinalBossController : MonoBehaviour
             waitTime *= Mathf.Lerp(1f, waitMultiplierAtMaxRage, Rage);
             yield return new WaitForSeconds(waitTime);
 
-            // Escolhe aleatoriamente esquerda ou direita
-            direction = Random.value < 0.5f ? -1 : 1;
+            // Escolhe a direção: para o player, ou sorteia se followPlayer estiver desligado
+            if (followPlayer)
+                direction = DirectionToPlayer();
+            else
+                direction = Random.value < 0.5f ? -1 : 1;
 
             // Vira o personagem
             FlipBoss();
@@ -240,24 +264,16 @@ public class FinalBossController : MonoBehaviour
         }
     }
 
-    // ---------- Ataque: rajada de garrafas ----------
+    // ---------- Ataque: rajada de garrafas pelos dois lados ----------
     private IEnumerator BottleBurst()
     {
         int count = Mathf.RoundToInt(Mathf.Lerp(burstCountMin, burstCountMax, Rage));
-        int startDirection = direction;
 
         for (int i = 0; i < count; i++)
         {
             if (dead) yield break;
 
-            // Fase 1: tudo para o mesmo lado. Fase 2: alterna os lados.
-            if (phase2)
-                direction = (i % 2 == 0) ? startDirection : -startDirection;
-            else
-                direction = startDirection;
-
-            FlipBoss();
-            ThrowBottleInDirection(direction);
+            ThrowSidePair();
 
             yield return new WaitForSeconds(burstInterval);
         }
@@ -277,15 +293,15 @@ public class FinalBossController : MonoBehaviour
             if (target != null)
             {
                 // vira o boss para o lado do player
-                direction = target.position.x >= transform.position.x ? 1 : -1;
+                direction = DirectionToPlayer();
                 FlipBoss();
 
                 Vector2 dir = (target.position - bottleSpawnPoint.position).normalized;
-                SpawnBottle(bottleSpawnPoint.position, dir * aimedSpeed, 1f);
+                SpawnBottle(bottleSpawnPoint.position, dir * aimedSpeed, 1f, true);
             }
             else
             {
-                ThrowBottleInDirection(direction);
+                ThrowSidePair();
             }
 
             yield return new WaitForSeconds(aimedInterval);
@@ -315,7 +331,7 @@ public class FinalBossController : MonoBehaviour
             else
                 y = transform.position.y + rainHeightAbovePlayer;
 
-            SpawnBottle(new Vector3(x, y, 0f), new Vector2(0f, -rainFallSpeed), rainDodgeWeight);
+            SpawnBottle(new Vector3(x, y, 0f), new Vector2(0f, -rainFallSpeed), rainDodgeWeight, false);
 
             yield return new WaitForSeconds(rainInterval);
         }
@@ -435,6 +451,29 @@ public class FinalBossController : MonoBehaviour
         if (bossCollider == null)
             return;
 
+        // Perseguindo o player: acompanha o lado dele e para quando chega perto
+        if (followPlayer)
+        {
+            Transform target = GetPlayer();
+
+            if (target != null)
+            {
+                float distance = Mathf.Abs(target.position.x - transform.position.x);
+
+                // Perto demais: não anda (a animação continua, as garrafas continuam saindo)
+                if (distance <= stopDistance)
+                    return;
+
+                int newDirection = DirectionToPlayer();
+
+                if (newDirection != direction)
+                {
+                    direction = newDirection;
+                    FlipBoss();
+                }
+            }
+        }
+
         Bounds bounds = bossCollider.bounds;
 
         // Ponto na frente dos pés do boss
@@ -486,44 +525,59 @@ public class FinalBossController : MonoBehaviour
     {
         if (dead) return;
 
-        ThrowBottleInDirection(direction);
+        ThrowSidePair();
 
-        // Na fase 2, joga uma garrafa extra logo depois
+        // Na fase 2, joga um segundo arremesso logo depois
         if (phase2)
-            StartCoroutine(ExtraBottle(direction));
+            StartCoroutine(ExtraPair());
     }
 
-    private IEnumerator ExtraBottle(int dir)
+    private IEnumerator ExtraPair()
     {
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.4f);
 
         if (!dead)
-            ThrowBottleInDirection(dir);
+            ThrowSidePair();
     }
 
-    // Jogada horizontal normal (usa a velocidade configurada no prefab Bottle)
-    private void ThrowBottleInDirection(int dir)
+    // Um arremesso: esquerda e direita ao mesmo tempo, no chão e no teto (se o ponto do teto existir)
+    private void ThrowSidePair()
     {
         if (dead) return;
 
-        GameObject bottle = Instantiate(
-            bottlePrefab,
-            bottleSpawnPoint.position,
-            Quaternion.identity
-        );
+        bool hasCeiling = ceilingBottlePoint != null;
 
-        Bottle bottleScript = bottle.GetComponent<Bottle>();
+        // 4 garrafas por arremesso (2 se não houver ponto do teto).
+        // O dano ao boss é dividido entre elas, então um arremesso inteiro desviado tira "dodgeDamage".
+        float weight = hasCeiling ? 0.25f : 0.5f;
 
-        if (bottleScript != null)
+        float groundY = bottleSpawnPoint.position.y;
+
+        ThrowSideBottle(-1, groundY, weight);
+        ThrowSideBottle(1, groundY, weight);
+
+        if (hasCeiling)
         {
-            bottleScript.boss = this;
-            bottleScript.dodgeWeight = 1f;
-            bottleScript.Throw(dir);
+            float ceilingY = ceilingBottlePoint.position.y;
+
+            ThrowSideBottle(-1, ceilingY, weight);
+            ThrowSideBottle(1, ceilingY, weight);
         }
     }
 
-    // Jogada com velocidade livre (mirada e chuva)
-    private void SpawnBottle(Vector3 position, Vector2 velocity, float weight)
+    private void ThrowSideBottle(int side, float y, float weight)
+    {
+        Vector3 pos = new Vector3(
+            transform.position.x + side * sideSpawnOffsetX,
+            y,
+            bottleSpawnPoint.position.z
+        );
+
+        SpawnBottle(pos, new Vector2(side * straightSpeed, 0f), weight, true);
+    }
+
+    // Cria uma garrafa. straight = true: voa reta, sem gravidade
+    private void SpawnBottle(Vector3 position, Vector2 velocity, float weight, bool straight)
     {
         if (dead) return;
 
@@ -539,7 +593,11 @@ public class FinalBossController : MonoBehaviour
         {
             bottleScript.boss = this;
             bottleScript.dodgeWeight = weight;
-            bottleScript.Throw(velocity);
+
+            if (straight)
+                bottleScript.lifeTime = straightLifeTime;
+
+            bottleScript.Throw(velocity, straight);
         }
     }
 

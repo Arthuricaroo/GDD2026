@@ -301,6 +301,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &20964822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 20964823}
+  m_Layer: 0
+  m_Name: RainSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &20964823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20964822}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 77.83, y: 4.01, z: 0.11106304}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &23505742
 GameObject:
   m_ObjectHideFlags: 0
@@ -9132,7 +9163,7 @@ Transform:
   m_GameObject: {fileID: 381820713}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.081, y: 0.016, z: 0}
+  m_LocalPosition: {x: -0.011, y: -0.088, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24485,7 +24516,7 @@ Transform:
   m_GameObject: {fileID: 1255516515}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.7, y: -2.9, z: 0}
+  m_LocalPosition: {x: 45.48, y: -2.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -28787,6 +28818,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  followPlayer: 1
+  stopDistance: 1.5
   maxHealth: 30
   dodgeDamage: 1
   healOnPlayerHit: 1
@@ -28797,16 +28830,20 @@ MonoBehaviour:
   speedMultiplierAtMaxRage: 1.6
   animSpeedAtMaxRage: 1.3
   angryTint: {r: 1, g: 0.45, b: 0.45, a: 1}
+  straightSpeed: 8
+  straightLifeTime: 4
+  sideSpawnOffsetX: 1.5
+  ceilingBottlePoint: {fileID: 1640711683}
   specialChanceMin: 0.2
   specialChanceMax: 0.7
   burstCountMin: 3
   burstCountMax: 7
-  burstInterval: 0.35
+  burstInterval: 0.2
   aimedSpeed: 9
   aimedCountMin: 1
   aimedCountMax: 4
   aimedInterval: 0.3
-  rainSpawnPoint: {fileID: 0}
+  rainSpawnPoint: {fileID: 20964823}
   rainHeightAbovePlayer: 7
   rainSpread: 8
   rainAmountMin: 4
@@ -28814,7 +28851,7 @@ MonoBehaviour:
   rainInterval: 0.25
   rainFallSpeed: 3
   rainDodgeWeight: 0.4
-  telegraphTime: 0.5
+  telegraphTime: 1
   warningColor: {r: 1, g: 1, b: 1, a: 1}
   onPhase2:
     m_PersistentCalls:
@@ -28908,7 +28945,7 @@ Transform:
   m_GameObject: {fileID: 1400455849}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 93.83, y: -3.18, z: 0}
+  m_LocalPosition: {x: 78.05, y: -3.18, z: 0}
   m_LocalScale: {x: 5.0208073, y: 5.0208073, z: 5.0208073}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -33414,6 +33451,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1640711682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1640711683}
+  m_Layer: 0
+  m_Name: CeilingBottlePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1640711683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640711682}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.78931, y: 3.752, z: 0.077771746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1643503643
 GameObject:
   m_ObjectHideFlags: 0
@@ -44777,3 +44845,5 @@ SceneRoots:
   - {fileID: 1255516523}
   - {fileID: 1400455854}
   - {fileID: 824772126}
+  - {fileID: 1640711683}
+  - {fileID: 20964823}

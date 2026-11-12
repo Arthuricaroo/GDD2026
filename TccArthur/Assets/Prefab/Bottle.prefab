@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -4507157727425099696, guid: c2f7706271c857e48897347ad4a5d977, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.007843138, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -176,3 +176,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 3
+  throwSpeed: 7
+  throwForceY: 3
+  damage: 20
+  spinSpeed: 300
+  ignoreCollisionTime: 0.15
+  boss: {fileID: 0}
+  dodgeWeight: 1
