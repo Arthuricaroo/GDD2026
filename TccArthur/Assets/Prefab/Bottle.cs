@@ -9,7 +9,7 @@ public class Bottle : MonoBehaviour
 
     public int damage = 20;
 
-    // Giro da garrafa quando voa reta (0 desliga). Cuidado: gira o collider junto.
+    // Giro visual da garrafa quando voa reta (0 desliga). Gira o collider junto.
     public float spinSpeed = 0f;
 
     // Tempo logo após nascer em que bater em algo não conta como "desvio"
@@ -28,6 +28,7 @@ public class Bottle : MonoBehaviour
     private float timer = 0f;
     private bool resolved = false;
     private bool straightFlight = false;
+    private Vector2 flightVelocity;
 
     private void Awake()
     {
@@ -74,7 +75,7 @@ public class Bottle : MonoBehaviour
         Throw(velocity, false);
     }
 
-    // Jogada com velocidade livre. Se straight for true, a garrafa voa reta (sem gravidade, Y travado)
+    // Jogada com velocidade livre. Se straight for true, a garrafa voa reta em qualquer ângulo, sem gravidade
     public void Throw(Vector2 velocity, bool straight)
     {
         if (rb == null) return;
@@ -93,15 +94,23 @@ public class Bottle : MonoBehaviour
         if (straight)
         {
             rb.gravityScale = 0f;
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
-            // Trava o Y e a rotação: nada empurra a garrafa para cima ou para baixo
-            rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
-
-            rb.linearVelocity = new Vector2(velocity.x, 0f);
+            flightVelocity = velocity;
+            rb.linearVelocity = velocity;
         }
         else
         {
             rb.linearVelocity = velocity;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        // Garrafa reta: refaz a velocidade a cada frame, nada consegue desviar o caminho dela
+        if (straightFlight && !resolved && rb != null)
+        {
+            rb.linearVelocity = flightVelocity;
         }
     }
 
@@ -114,7 +123,7 @@ public class Bottle : MonoBehaviour
         // Giro só visual (opcional)
         if (straightFlight && spinSpeed != 0f)
         {
-            float dir = (rb != null && rb.linearVelocity.x >= 0f) ? -1f : 1f;
+            float dir = flightVelocity.x >= 0f ? -1f : 1f;
             transform.Rotate(0f, 0f, dir * spinSpeed * Time.deltaTime);
         }
 
@@ -145,8 +154,8 @@ public class Bottle : MonoBehaviour
         if (collision.gameObject.GetComponentInParent<FinalBossController>() != null) return;
         if (collision.gameObject.GetComponent<Bottle>() != null) return;
 
-        // Garrafa reta: ignora contato com chão e teto (só parede e player contam)
-        if (straightFlight && collision.contactCount > 0)
+        // Garrafa que voa na horizontal: ignora o contato com chão/teto (só parede e player contam)
+        if (straightFlight && Mathf.Abs(flightVelocity.y) < 0.01f && collision.contactCount > 0)
         {
             Vector2 normal = collision.GetContact(0).normal;
 

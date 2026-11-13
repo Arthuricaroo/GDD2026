@@ -27,7 +27,7 @@ public class FinalBossController : MonoBehaviour
 
     [Header("Vida (cai quando o player desvia)")]
     public float maxHealth = 30f;
-    public float dodgeDamage = 1f;        // vida que cada arremesso desviado tira (dividida entre as garrafas dele)
+    public float dodgeDamage = 1f;        // vida que cada leque desviado tira (dividida entre as garrafas dele)
     public float healOnPlayerHit = 1f;    // vida que o boss recupera se acertar o player (0 desliga)
     public Slider healthBar;              // opcional
 
@@ -39,11 +39,17 @@ public class FinalBossController : MonoBehaviour
     public float animSpeedAtMaxRage = 1.3f;
     public Color angryTint = new Color(1f, 0.45f, 0.45f);
 
-    [Header("Garrafas laterais (voam retas, dos dois lados e nas duas alturas)")]
-    public float straightSpeed = 6f;          // velocidade das garrafas retas
+    [Header("Teste")]
+    public bool testRainOnly = false;     // marque para testar: todo ataque especial vira chuva, liberada desde o início
+
+    [Header("Leque de garrafas (voam retas em vários ângulos)")]
+    public float straightSpeed = 6f;          // velocidade das garrafas
     public float straightLifeTime = 4f;       // quanto tempo elas voam (distância = velocidade x tempo)
-    public float sideSpawnOffsetX = 1.5f;     // distância do centro do boss de onde elas nascem
-    public Transform ceilingBottlePoint;      // objeto vazio na altura do player quando ele está no teto
+    public float spawnOffset = 1f;            // distância do centro do boss de onde elas nascem
+    [Tooltip("Ângulos do leque na fase 1. 0 = direita, 90 = cima, 180 = esquerda")]
+    public float[] anglesPhase1 = { 0f, 45f, 90f, 135f, 180f };
+    [Tooltip("Ângulos do leque na fase 2 (mais garrafas, menos espaço entre elas)")]
+    public float[] anglesPhase2 = { 0f, 30f, 60f, 90f, 120f, 150f, 180f };
 
     [Header("Ataques especiais")]
     [Range(0f, 1f)] public float specialChanceMin = 0.2f;  // com raiva zerada
@@ -61,13 +67,17 @@ public class FinalBossController : MonoBehaviour
     public float aimedInterval = 0.3f;
 
     [Header("Chuva de garrafas")]
-    public Transform rainSpawnPoint;         // opcional: objeto vazio na altura de onde as garrafas caem
-    public float rainHeightAbovePlayer = 7f; // usado se rainSpawnPoint estiver vazio
-    public float rainSpread = 8f;
+    public Transform rainSpawnPoint;         // opcional: se vazio, usa o Ceiling Bottle Point; se também vazio, acha o teto sozinho
+    public Transform ceilingBottlePoint;     // opcional: objeto vazio perto do teto, usado só pela chuva
+    public float rainHeightAbovePlayer = 7f; // altura máxima da chuva quando não existe teto
+    public float rainSpread = 3f;            // largura da faixa onde a chuva cai em volta do player
+    [Range(0f, 1f)] public float rainAimChance = 0.3f; // chance de a garrafa cair exatamente na posição do player
+    public float rainAvoidBossDistance = 2.5f; // a chuva não cai a menos dessa distância do boss
     public int rainAmountMin = 4;
     public int rainAmountMax = 12;
     public float rainInterval = 0.25f;
-    public float rainFallSpeed = 3f;
+    public float rainFallSpeed = 5f;         // velocidade constante da queda (sem gravidade)
+    public float rainLifeTime = 5f;          // tempo de vida de cada garrafa da chuva
     public float rainDodgeWeight = 0.4f;     // cada garrafa da chuva tira só uma fração da vida
 
     [Header("Aviso antes do ataque")]
@@ -231,7 +241,7 @@ public class FinalBossController : MonoBehaviour
             animator.Play("FinalBoss_Idle");
 
             // Chance de fazer um ataque especial (cresce com a raiva)
-            float chance = Mathf.Lerp(specialChanceMin, specialChanceMax, Rage);
+            float chance = testRainOnly ? 1f : Mathf.Lerp(specialChanceMin, specialChanceMax, Rage);
             if (Random.value < chance)
             {
                 yield return new WaitForSeconds(0.3f);
@@ -244,9 +254,18 @@ public class FinalBossController : MonoBehaviour
     // ---------- Sorteia o ataque especial ----------
     private IEnumerator SpecialAttack()
     {
-        // rajada e mirada sempre. a chuva só aparece com raiva suficiente.
-        int options = Rage >= rainUnlockRage ? 3 : 2;
-        int choice = Random.Range(0, options);
+        int choice;
+
+        if (testRainOnly)
+        {
+            choice = 2;
+        }
+        else
+        {
+            // rajada e mirada sempre. a chuva só aparece com raiva suficiente.
+            int options = Rage >= rainUnlockRage ? 3 : 2;
+            choice = Random.Range(0, options);
+        }
 
         yield return StartCoroutine(Telegraph());
 
@@ -264,7 +283,7 @@ public class FinalBossController : MonoBehaviour
         }
     }
 
-    // ---------- Ataque: rajada de garrafas pelos dois lados ----------
+    // ---------- Ataque: rajada de leques ----------
     private IEnumerator BottleBurst()
     {
         int count = Mathf.RoundToInt(Mathf.Lerp(burstCountMin, burstCountMax, Rage));
@@ -273,7 +292,7 @@ public class FinalBossController : MonoBehaviour
         {
             if (dead) yield break;
 
-            ThrowSidePair();
+            ThrowFan();
 
             yield return new WaitForSeconds(burstInterval);
         }
@@ -297,21 +316,23 @@ public class FinalBossController : MonoBehaviour
                 FlipBoss();
 
                 Vector2 dir = (target.position - bottleSpawnPoint.position).normalized;
-                SpawnBottle(bottleSpawnPoint.position, dir * aimedSpeed, 1f, true);
+                SpawnBottle(bottleSpawnPoint.position, dir * aimedSpeed, 1f, straightLifeTime);
             }
             else
             {
-                ThrowSidePair();
+                ThrowFan();
             }
 
             yield return new WaitForSeconds(aimedInterval);
         }
     }
 
-    // ---------- Ataque: chuva de garrafas ----------
+    // ---------- Ataque: chuva de garrafas (só perto do player) ----------
     private IEnumerator RainAttack()
     {
         int count = Mathf.RoundToInt(Mathf.Lerp(rainAmountMin, rainAmountMax, Rage));
+
+        Debug.Log("Chuva de garrafas: " + count + " garrafas");
 
         for (int i = 0; i < count; i++)
         {
@@ -319,22 +340,71 @@ public class FinalBossController : MonoBehaviour
 
             Transform target = GetPlayer();
 
-            float centerX = target != null ? target.position.x : transform.position.x;
-            float x = centerX + Random.Range(-rainSpread, rainSpread);
-            x = Mathf.Clamp(x, leftLimit, rightLimit);
+            float x;
 
-            float y;
-            if (rainSpawnPoint != null)
-                y = rainSpawnPoint.position.y;
-            else if (target != null)
-                y = target.position.y + rainHeightAbovePlayer;
-            else
-                y = transform.position.y + rainHeightAbovePlayer;
+            // Se não achou um ponto livre perto do player, pula essa garrafa
+            if (TryGetRainX(target, out x))
+            {
+                float y = GetRainY(x, target);
 
-            SpawnBottle(new Vector3(x, y, 0f), new Vector2(0f, -rainFallSpeed), rainDodgeWeight, false);
+                // Cai reta, em velocidade constante, sem gravidade
+                SpawnBottle(new Vector3(x, y, 0f), new Vector2(0f, -rainFallSpeed), rainDodgeWeight, rainLifeTime);
+            }
 
             yield return new WaitForSeconds(rainInterval);
         }
+    }
+
+    // Ponto X de onde a garrafa da chuva cai: sempre perto do player e nunca em cima do boss
+    private bool TryGetRainX(Transform target, out float x)
+    {
+        x = transform.position.x;
+
+        // Sem player: cai em volta do boss, mas respeitando a distância mínima
+        float centerX = target != null ? target.position.x : transform.position.x;
+
+        for (int attempt = 0; attempt < 15; attempt++)
+        {
+            // Às vezes a garrafa cai exatamente onde o player está agora
+            if (target != null && Random.value < rainAimChance)
+                x = target.position.x;
+            else
+                x = centerX + Random.Range(-rainSpread, rainSpread);
+
+            x = Mathf.Clamp(x, leftLimit, rightLimit);
+
+            if (Mathf.Abs(x - transform.position.x) >= rainAvoidBossDistance)
+                return true;
+        }
+
+        return false;
+    }
+
+    // Altura de onde a chuva nasce, sempre dentro da sala
+    private float GetRainY(float x, Transform target)
+    {
+        // 1) ponto escolhido por você
+        if (rainSpawnPoint != null)
+            return rainSpawnPoint.position.y;
+
+        // 2) ponto perto do teto
+        if (ceilingBottlePoint != null)
+            return ceilingBottlePoint.position.y;
+
+        // 3) procura o teto com um raio para cima e nasce logo abaixo dele
+        float baseY = target != null ? target.position.y : transform.position.y;
+
+        RaycastHit2D hit = Physics2D.Raycast(
+            new Vector2(x, baseY),
+            Vector2.up,
+            rainHeightAbovePlayer,
+            groundLayer
+        );
+
+        if (hit.collider != null)
+            return hit.point.y - 0.6f;
+
+        return baseY + rainHeightAbovePlayer;
     }
 
     // ---------- Aviso antes do ataque ----------
@@ -525,59 +595,52 @@ public class FinalBossController : MonoBehaviour
     {
         if (dead) return;
 
-        ThrowSidePair();
+        ThrowFan();
 
-        // Na fase 2, joga um segundo arremesso logo depois
+        // Na fase 2, joga um segundo leque logo depois
         if (phase2)
-            StartCoroutine(ExtraPair());
+            StartCoroutine(ExtraFan());
     }
 
-    private IEnumerator ExtraPair()
+    private IEnumerator ExtraFan()
     {
         yield return new WaitForSeconds(0.4f);
 
         if (!dead)
-            ThrowSidePair();
+            ThrowFan();
     }
 
-    // Um arremesso: esquerda e direita ao mesmo tempo, no chão e no teto (se o ponto do teto existir)
-    private void ThrowSidePair()
+    // Um arremesso: uma garrafa para cada ângulo da lista, todas ao mesmo tempo
+    // O dano ao boss é dividido entre elas, então um leque inteiro desviado tira "dodgeDamage".
+    private void ThrowFan()
     {
         if (dead) return;
 
-        bool hasCeiling = ceilingBottlePoint != null;
+        float[] angles = phase2 ? anglesPhase2 : anglesPhase1;
 
-        // 4 garrafas por arremesso (2 se não houver ponto do teto).
-        // O dano ao boss é dividido entre elas, então um arremesso inteiro desviado tira "dodgeDamage".
-        float weight = hasCeiling ? 0.25f : 0.5f;
+        if (angles == null || angles.Length == 0) return;
 
-        float groundY = bottleSpawnPoint.position.y;
+        float weight = 1f / angles.Length;
 
-        ThrowSideBottle(-1, groundY, weight);
-        ThrowSideBottle(1, groundY, weight);
-
-        if (hasCeiling)
-        {
-            float ceilingY = ceilingBottlePoint.position.y;
-
-            ThrowSideBottle(-1, ceilingY, weight);
-            ThrowSideBottle(1, ceilingY, weight);
-        }
-    }
-
-    private void ThrowSideBottle(int side, float y, float weight)
-    {
-        Vector3 pos = new Vector3(
-            transform.position.x + side * sideSpawnOffsetX,
-            y,
+        Vector3 origin = new Vector3(
+            transform.position.x,
+            bottleSpawnPoint.position.y,
             bottleSpawnPoint.position.z
         );
 
-        SpawnBottle(pos, new Vector2(side * straightSpeed, 0f), weight, true);
+        for (int i = 0; i < angles.Length; i++)
+        {
+            float rad = angles[i] * Mathf.Deg2Rad;
+            Vector2 dir = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad));
+
+            Vector3 pos = origin + (Vector3)(dir * spawnOffset);
+
+            SpawnBottle(pos, dir * straightSpeed, weight, straightLifeTime);
+        }
     }
 
-    // Cria uma garrafa. straight = true: voa reta, sem gravidade
-    private void SpawnBottle(Vector3 position, Vector2 velocity, float weight, bool straight)
+    // Cria uma garrafa que voa reta, em velocidade constante, sem gravidade
+    private void SpawnBottle(Vector3 position, Vector2 velocity, float weight, float life)
     {
         if (dead) return;
 
@@ -593,11 +656,9 @@ public class FinalBossController : MonoBehaviour
         {
             bottleScript.boss = this;
             bottleScript.dodgeWeight = weight;
+            bottleScript.lifeTime = life;
 
-            if (straight)
-                bottleScript.lifeTime = straightLifeTime;
-
-            bottleScript.Throw(velocity, straight);
+            bottleScript.Throw(velocity, true);
         }
     }
 

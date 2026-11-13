@@ -301,37 +301,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &20964822
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 20964823}
-  m_Layer: 0
-  m_Name: RainSpawnPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &20964823
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 20964822}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.83, y: 4.01, z: 0.11106304}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &23505742
 GameObject:
   m_ObjectHideFlags: 0
@@ -28830,10 +28799,24 @@ MonoBehaviour:
   speedMultiplierAtMaxRage: 1.6
   animSpeedAtMaxRage: 1.3
   angryTint: {r: 1, g: 0.45, b: 0.45, a: 1}
-  straightSpeed: 8
+  testRainOnly: 1
+  straightSpeed: 10
   straightLifeTime: 4
-  sideSpawnOffsetX: 1.5
-  ceilingBottlePoint: {fileID: 1640711683}
+  spawnOffset: 1
+  anglesPhase1:
+  - 0
+  - 45
+  - 90
+  - 135
+  - 180
+  anglesPhase2:
+  - 0
+  - 30
+  - 60
+  - 90
+  - 120
+  - 150
+  - 180
   specialChanceMin: 0.2
   specialChanceMax: 0.7
   burstCountMin: 3
@@ -28843,13 +28826,17 @@ MonoBehaviour:
   aimedCountMin: 1
   aimedCountMax: 4
   aimedInterval: 0.3
-  rainSpawnPoint: {fileID: 20964823}
+  rainSpawnPoint: {fileID: 0}
+  ceilingBottlePoint: {fileID: 0}
   rainHeightAbovePlayer: 7
-  rainSpread: 8
+  rainSpread: 3
+  rainAimChance: 0.3
+  rainAvoidBossDistance: 2.5
   rainAmountMin: 4
   rainAmountMax: 12
   rainInterval: 0.25
-  rainFallSpeed: 3
+  rainFallSpeed: 10
+  rainLifeTime: 5
   rainDodgeWeight: 0.4
   telegraphTime: 1
   warningColor: {r: 1, g: 1, b: 1, a: 1}
@@ -33451,37 +33438,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1640711682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1640711683}
-  m_Layer: 0
-  m_Name: CeilingBottlePoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1640711683
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640711682}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 93.78931, y: 3.752, z: 0.077771746}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1643503643
 GameObject:
   m_ObjectHideFlags: 0
@@ -44845,5 +44801,3 @@ SceneRoots:
   - {fileID: 1255516523}
   - {fileID: 1400455854}
   - {fileID: 824772126}
-  - {fileID: 1640711683}
-  - {fileID: 20964823}
