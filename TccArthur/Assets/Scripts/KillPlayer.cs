@@ -16,6 +16,19 @@ public class KillPlayer : MonoBehaviour
     private Rigidbody2D playerRb;
     private GameOverUI gameOver;
 
+    public void MatarPorGarrafa()
+    {
+        if (respawning) return;
+
+        if (Player == null)
+        {
+            Debug.LogError("KillPlayer: Player não foi atribuído!");
+            return;
+        }
+
+        StartCoroutine(RespawnRoutine());
+    }
+
     void Start()
     {
         respawning = false;   // cena nova: libera de novo
@@ -23,7 +36,9 @@ public class KillPlayer : MonoBehaviour
         gravityScript = Player.GetComponent<GravityInverter>();
         movimento = Player.GetComponent<PlayerMovement>();
         playerRb = Player.GetComponent<Rigidbody2D>();
-        gameOver = FindFirstObjectByType<GameOverUI>();
+
+        // Procura o GameOverUI mesmo que ele esteja em um objeto desligado
+        gameOver = FindFirstObjectByType<GameOverUI>(FindObjectsInactive.Include);
 
         // Define o ponto inicial so se ainda nao existir um valido
         if (checkpointAtual == null)
@@ -46,6 +61,9 @@ public class KillPlayer : MonoBehaviour
     {
         if (respawning) return;
         if (!alvo.CompareTag("Player")) return;
+
+        // Mostra no Console quem matou o Ubi
+        Debug.Log("KillPlayer: o objeto '" + gameObject.name + "' matou o Ubi (encostou em '" + alvo.name + "')", gameObject);
 
         StartCoroutine(RespawnRoutine());
     }

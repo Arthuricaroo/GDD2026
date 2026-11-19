@@ -6,7 +6,7 @@ public class GameOverUI : MonoBehaviour
 {
     public GameObject painelGameOver;              // painel com o texto GAME OVER
     public float tempoNaTela = 3f;                 // segundos mostrando o game over
-    public string nomeDaPrimeiraFase = "Fase1";    // nome exato da cena da fase 1
+    public string nomeDaPrimeiraFase = "Fase 1";    // nome exato da cena da fase 1
 
     void Awake()
     {

@@ -2,7 +2,7 @@ using System;
 
 public static class VidaJogador
 {
-    public const int VidasMaximas = 3;
+    public const int VidasMaximas = 4;
 
     public static int Vidas { get; private set; } = VidasMaximas;
 
@@ -23,7 +23,7 @@ public static class VidaJogador
         return Vidas;
     }
 
-    // Da 1 vida. Devolve false se ja estava com as 3
+    // Da 1 vida. Devolve false se ja estava com todas
     public static bool GanharVida()
     {
         if (Vidas >= VidasMaximas) return false;

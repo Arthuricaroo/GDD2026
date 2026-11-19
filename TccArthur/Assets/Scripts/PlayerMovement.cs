@@ -10,7 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
 
     [Header("Morte")]
-    public string nomeClipeMorte = "Player_Death";   // nome do clipe de morte no Animator
+    public string nomeClipeMorte = "Player_Death";   // nome do clipe/estado de morte no Animator
+    public string nomeEstadoIdle = "Idleprota";      // nome EXATO do estado parado no Animator
     public float duracaoMorteReserva = 1f;           // usado se o clipe nao for encontrado
 
     private Rigidbody2D rb;
@@ -34,6 +35,9 @@ public class PlayerMovement : MonoBehaviour
     {
         // Morto: nao anda, nao pula, nao vira
         if (estaMorto) return;
+
+        // Vivo: a animacao de morte nao pode tocar
+        ProtegerContraMorteFalsa();
 
         // Movimento horizontal
         float moveX = Input.GetAxisRaw("Horizontal");
@@ -87,6 +91,33 @@ public class PlayerMovement : MonoBehaviour
         );
     }
 
+    // Se o Animator cair na morte com o Ubi vivo, volta para o estado parado
+    private void ProtegerContraMorteFalsa()
+    {
+        anim.ResetTrigger("Die");
+
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName(nomeClipeMorte) ||
+            anim.GetNextAnimatorStateInfo(0).IsName(nomeClipeMorte))
+        {
+            Debug.LogWarning("PlayerMovement: a animacao de morte tocou com o Ubi vivo. Voltando ao estado parado.");
+            ForcarIdle();
+        }
+    }
+
+    private void ForcarIdle()
+    {
+        int estadoIdle = Animator.StringToHash(nomeEstadoIdle);
+        if (anim.HasState(0, estadoIdle))
+        {
+            anim.Play(estadoIdle, 0, 0f);
+        }
+        else
+        {
+            Debug.LogWarning("PlayerMovement: nao existe o estado '" + nomeEstadoIdle +
+                             "' no Animator. Escreva o nome exato do estado parado em Nome Estado Idle.");
+        }
+    }
+
     // Chamado pelo KillPlayer: toca a animacao de morte e congela o Ubi.
     // Retorna quanto tempo a animacao dura.
     public float IniciarMorte()
@@ -111,9 +142,17 @@ public class PlayerMovement : MonoBehaviour
         rb.simulated = true;
         rb.linearVelocity = Vector2.zero;
 
-        // Volta o Animator ao estado inicial (Idle) e limpa os gatilhos
+        // Reinicia o Animator, limpa os gatilhos e forca o estado parado
         anim.Rebind();
+        LimparGatilhos();
+        ForcarIdle();
+        anim.SetBool("isRunning", false);
         anim.Update(0f);
+        LimparGatilhos();
+    }
+
+    private void LimparGatilhos()
+    {
         anim.ResetTrigger("Die");
         anim.ResetTrigger("Respawn");
         anim.ResetTrigger("FlipGravity");

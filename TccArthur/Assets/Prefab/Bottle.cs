@@ -142,7 +142,17 @@ public class Bottle : MonoBehaviour
 
         if (player != null)
         {
-            player.TakeDamage(damage);
+            KillPlayer killPlayer = FindFirstObjectByType<KillPlayer>();
+
+            if (killPlayer != null)
+            {
+                killPlayer.MatarPorGarrafa();
+            }
+            else
+            {
+                Debug.LogError("Bottle: nenhum KillPlayer encontrado na cena!");
+            }
+
             Hit();
             return;
         }
