@@ -129,7 +129,7 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetBool("isRunning", false);
         anim.ResetTrigger("FlipGravity");
-        anim.SetTrigger("Die");
+        anim.SetBool("isDie", true);
 
         return DuracaoDoClipe(nomeClipeMorte, duracaoMorteReserva);
     }
