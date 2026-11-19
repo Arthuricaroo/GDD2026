@@ -1,12 +1,7 @@
 using UnityEngine;
 
+// Script antigo (destruia o jogador). Agora quem mata e o KillPlayer.
+// Pode remover este componente dos objetos quando quiser.
 public class SpikeKill : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Destroy(other.gameObject);
-        }
-    }
 }
