@@ -679,7 +679,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -442, y: 101}
+  m_AnchoredPosition: {x: -239, y: 117}
   m_SizeDelta: {x: 105, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1175326893
@@ -707,6 +707,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175326891}
   m_CullTransparentMesh: 1
+--- !u!4 &1343210977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+  m_PrefabInstance: {fileID: 672443338}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1378784359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1073,8 +1078,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b47f2b2093242184cb4eb55dc6f53bd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  offsetX: 3
+  target: {fileID: 1343210977}
+  offsetX: 0
   smoothSpeed: 5
   followY: 0
   fixedY: -0.05

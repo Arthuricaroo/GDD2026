@@ -1,51 +1,68 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;   // necessario para trocar de cena
 using System.Collections;
 
 public class KillPlayer : MonoBehaviour
 {
-    public GameObject Player;
-    public Transform respawnPoint;          // ponto inicial (arraste no Inspector)
+    public GameObject Player;               // se estiver vazio, acha sozinho pela tag Player
+    public Transform respawnPoint;          // ponto inicial (opcional)
     public float respawnDelay = 0.5f;       // tempo com o Ubi sumido, depois da animacao de morte
 
     // Compartilhado por TODOS os obstaculos
     public static Transform checkpointAtual;
     private static bool respawning = false;
 
+    // Executa a rotina de respawn mesmo se este obstaculo for desativado ou destruido
+    private class Executor : MonoBehaviour { }
+    private static Executor executor;
+
     private GravityInverter gravityScript;
     private PlayerMovement movimento;
     private Rigidbody2D playerRb;
-    private GameOverUI gameOver;
+    private Vector3 posicaoInicial;
 
+    void Start()
+    {
+        respawning = false;   // cena nova: libera de novo
+
+        if (Player == null)
+            Player = GameObject.FindGameObjectWithTag("Player");
+
+        if (Player == null)
+        {
+            Debug.LogError("KillPlayer em '" + gameObject.name + "': nao achei nenhum objeto com a tag Player.");
+            return;
+        }
+
+        gravityScript = Player.GetComponent<GravityInverter>();
+        movimento = Player.GetComponent<PlayerMovement>();
+        playerRb = Player.GetComponent<Rigidbody2D>();
+
+        // Posicao onde o Ubi comeca a fase (ultimo recurso do respawn)
+        posicaoInicial = Player.transform.position;
+
+        // Define o ponto inicial so se ainda nao existir um valido
+        if (checkpointAtual == null && respawnPoint != null)
+            checkpointAtual = respawnPoint;
+    }
+
+    // Chamado pelo Bottle (garrafa do boss) quando acerta o Ubi
     public void MatarPorGarrafa()
     {
         if (respawning) return;
 
         if (Player == null)
         {
-            Debug.LogError("KillPlayer: Player não foi atribuído!");
+            Debug.LogError("KillPlayer: nao achei o Player (confira a tag Player).");
             return;
         }
 
-        StartCoroutine(RespawnRoutine());
+        Debug.Log("KillPlayer: uma garrafa do boss matou o Ubi", gameObject);
+
+        Rodar(RespawnRoutine());
     }
 
-    void Start()
-    {
-        respawning = false;   // cena nova: libera de novo
-
-        gravityScript = Player.GetComponent<GravityInverter>();
-        movimento = Player.GetComponent<PlayerMovement>();
-        playerRb = Player.GetComponent<Rigidbody2D>();
-
-        // Procura o GameOverUI mesmo que ele esteja em um objeto desligado
-        gameOver = FindFirstObjectByType<GameOverUI>(FindObjectsInactive.Include);
-
-        // Define o ponto inicial so se ainda nao existir um valido
-        if (checkpointAtual == null)
-            checkpointAtual = respawnPoint;
-    }
-
-    // Colisao normal (Rato, Refugo, espinhos com collider solido)
+    // Colisao normal (Rato, Refugo, espinhos, garrafas com collider solido)
     private void OnCollisionEnter2D(Collision2D other)
     {
         TentarMatar(other.gameObject);
@@ -60,12 +77,22 @@ public class KillPlayer : MonoBehaviour
     private void TentarMatar(GameObject alvo)
     {
         if (respawning) return;
+        if (Player == null) return;
         if (!alvo.CompareTag("Player")) return;
 
-        // Mostra no Console quem matou o Ubi
-        Debug.Log("KillPlayer: o objeto '" + gameObject.name + "' matou o Ubi (encostou em '" + alvo.name + "')", gameObject);
+        Debug.Log("KillPlayer: o objeto '" + gameObject.name + "' matou o Ubi", gameObject);
 
-        StartCoroutine(RespawnRoutine());
+        Rodar(RespawnRoutine());
+    }
+
+    private void Rodar(IEnumerator rotina)
+    {
+        if (executor == null)
+        {
+            GameObject go = new GameObject("KillPlayerExecutor");
+            executor = go.AddComponent<Executor>();
+        }
+        executor.StartCoroutine(rotina);
     }
 
     IEnumerator RespawnRoutine()
@@ -87,18 +114,18 @@ public class KillPlayer : MonoBehaviour
         // Espera a animacao terminar
         yield return new WaitForSeconds(duracaoMorte);
 
-        // Acabaram as vidas: game over e volta para a fase 1
+        // Acabaram as vidas: vai para a tela de Game Over
         if (vidasRestantes <= 0)
         {
-            if (gameOver != null)
-            {
-                gameOver.Mostrar();
-                yield break;   // respawning continua true: nada mais mata o Ubi
-            }
+            // A gravidade e global: se o Ubi morreu invertido, volta ao normal
+            Physics2D.gravity = new Vector2(0f, -9.81f);
 
-            // Sem GameOverUI na cena: so devolve as vidas e renasce normalmente
-            Debug.LogWarning("KillPlayer: nao ha GameOverUI na cena. Vidas devolvidas.");
+            // Proxima partida comeca do zero
+            checkpointAtual = null;
             VidaJogador.Resetar();
+
+            SceneManager.LoadScene("GameOver");   // no momento do game over
+            yield break;                          // respawning continua true: nada mais mata o Ubi
         }
 
         Player.SetActive(false);
@@ -108,7 +135,14 @@ public class KillPlayer : MonoBehaviour
 
         yield return new WaitForSeconds(respawnDelay);
 
-        Player.transform.position = checkpointAtual.position;
+        // Destino: ultimo checkpoint > respawnPoint > posicao inicial do Ubi
+        Vector3 destino = posicaoInicial;
+        if (checkpointAtual != null)
+            destino = checkpointAtual.position;
+        else if (respawnPoint != null)
+            destino = respawnPoint.position;
+
+        Player.transform.position = destino;
 
         if (playerRb != null)
             playerRb.linearVelocity = Vector2.zero;
