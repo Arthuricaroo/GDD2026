@@ -130,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 2174449694447940349, guid: dafa797a4dec9cc4aaa49855a628495d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 379234499}
+      objectReference: {fileID: 0}
     - target: {fileID: 2174449694447940349, guid: dafa797a4dec9cc4aaa49855a628495d, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &43681623
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &53341772
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &68182304
@@ -752,7 +752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &69689594
@@ -924,7 +924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &74102088
@@ -1160,7 +1160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &97046631
@@ -4874,7 +4874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &101146194
@@ -5045,7 +5045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &105930917
@@ -5323,7 +5323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &111165418
@@ -5710,7 +5710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &123121407
@@ -5947,7 +5947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &129665782
@@ -6119,7 +6119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &133434694
@@ -6289,7 +6289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &133922174
@@ -6466,7 +6466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &158273675
@@ -6638,7 +6638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &166561751
@@ -6809,7 +6809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &171556704
@@ -6980,7 +6980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &178815559
@@ -7161,7 +7161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &211672356
@@ -7331,7 +7331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &218623511
@@ -7568,7 +7568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &221722296
@@ -7743,7 +7743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &226713424
@@ -8084,7 +8084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &242231804
@@ -8254,7 +8254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &255849158
@@ -8431,7 +8431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &276386423
@@ -8690,7 +8690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &279055441
@@ -8861,7 +8861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &288555175
@@ -9069,7 +9069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &300471068
@@ -9240,7 +9240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &300620642
@@ -9376,7 +9376,7 @@ PrefabInstance:
     - target: {fileID: 2174449694447940349, guid: dafa797a4dec9cc4aaa49855a628495d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 379234499}
+      objectReference: {fileID: 0}
     - target: {fileID: 2174449694447940349, guid: dafa797a4dec9cc4aaa49855a628495d, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -9481,7 +9481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &324615854
@@ -9653,7 +9653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &325510929
@@ -9823,7 +9823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &342183683
@@ -10168,7 +10168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &351210649
@@ -10337,7 +10337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!60 &358546740
@@ -10549,7 +10549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &377857228
@@ -15505,248 +15505,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!1 &379234499
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 379234500}
-  - component: {fileID: 379234507}
-  - component: {fileID: 379234506}
-  - component: {fileID: 379234505}
-  - component: {fileID: 379234504}
-  - component: {fileID: 379234503}
-  - component: {fileID: 379234502}
-  - component: {fileID: 379234501}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &379234500
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379234499}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -93.7, y: -2.37, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 478386041}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &379234501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379234499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61506c12b38266a4fb08b615415c2f58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationDuration: 0.5
-  gravityUpSound: {fileID: 0}
-  gravityDownSound: {fileID: 0}
-  sfxVolume: 0.7
---- !u!114 &379234502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379234499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7284f88ee94bd29409cb5d698ae5fff6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  healthBarFill: {fileID: 0}
---- !u!95 &379234503
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379234499}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0f3bf2ae2cbedba4f8607108cb20f20b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!50 &379234504
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379234499}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 2.5
-  m_Material: {fileID: 6200000, guid: e9ea13d9828741d4a99b15bd4f0f2cdf, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!61 &379234505
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379234499}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.003099203, y: -0.05849904}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 1.28}
-    newSize: {x: 0.515625, y: 0.8515625}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.88211536, y: 1.126722}
-  m_EdgeRadius: 0
---- !u!212 &379234506
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379234499}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 20
-  m_Sprite: {fileID: -6007857137893288414, guid: 93ca850a13c8b7549942720985158028, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.515625, y: 0.8515625}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!114 &379234507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379234499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e39ff2668ea864ba82c4175866b65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 5
-  jumpForce: 8.5
-  groundCheck: {fileID: 478386041}
-  groundRadius: 0.1
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  nomeClipeMorte: Player_Death
-  nomeEstadoIdle: Idleprota
-  duracaoMorteReserva: 1
-  gravityCooldown: 0.5
 --- !u!1 &392515989
 GameObject:
   m_ObjectHideFlags: 0
@@ -15794,7 +15552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &392515992
@@ -15966,7 +15724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &394751044
@@ -16138,7 +15896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &395063648
@@ -16309,7 +16067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &398231012
@@ -16479,7 +16237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &398974474
@@ -16729,7 +16487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &402957102
@@ -16899,7 +16657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &417830055
@@ -17069,7 +16827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &421715953
@@ -17271,7 +17029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &442811295
@@ -17506,7 +17264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &460598085
@@ -17677,7 +17435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &462519854
@@ -17854,7 +17612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &477628683
@@ -18065,93 +17823,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &478386040
-GameObject:
+--- !u!1001 &478861193
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 478386041}
-  - component: {fileID: 478386042}
-  m_Layer: 3
-  m_Name: GroundCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &478386041
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478386040}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.046, y: -0.575, z: 0}
-  m_LocalScale: {x: 1, y: 0.4232, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 379234500}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &478386042
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478386040}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31d0dcc6f2dd4e4408d18036a2c93862, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1360468545555199143, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -93.17609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5810957
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805397630921861306, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 697ed020d1d80134d8b8717c2b571666, type: 3}
 --- !u!1 &482999220
 GameObject:
   m_ObjectHideFlags: 0
@@ -18199,7 +17927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &482999223
@@ -18370,7 +18098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!60 &486247803
@@ -18528,7 +18256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &488391158
@@ -18700,7 +18428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &494199632
@@ -18959,7 +18687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &536983095
@@ -19129,7 +18857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &538875024
@@ -19379,7 +19107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &564969579
@@ -19616,7 +19344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &575689011
@@ -19793,7 +19521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &592542445
@@ -19964,7 +19692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &593962468
@@ -20223,7 +19951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &648030930
@@ -20393,7 +20121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &681587974
@@ -20564,7 +20292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &685681244
@@ -20736,7 +20464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &686840024
@@ -20906,7 +20634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &694226219
@@ -21076,7 +20804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &712622747
@@ -21246,7 +20974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &713606574
@@ -21416,7 +21144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &722326208
@@ -21652,7 +21380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &733841684
@@ -21824,7 +21552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &737011889
@@ -21995,7 +21723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &756506483
@@ -22230,7 +21958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &757910480
@@ -22401,7 +22129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &772106213
@@ -22572,7 +22300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &779133558
@@ -22742,7 +22470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &780743884
@@ -22913,7 +22641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &781669679
@@ -23084,7 +22812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &794261095
@@ -23255,7 +22983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &795443775
@@ -23427,7 +23155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &797614507
@@ -23597,7 +23325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &798237636
@@ -23767,7 +23495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &799975652
@@ -23937,7 +23665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &802423742
@@ -24107,7 +23835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &802782549
@@ -24278,7 +24006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &803540315
@@ -24535,7 +24263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &850413690
@@ -24706,7 +24434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &852334798
@@ -24963,7 +24691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &860435624
@@ -25134,7 +24862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &868275253
@@ -25305,7 +25033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &878589874
@@ -25475,7 +25203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!60 &878768329
@@ -25633,7 +25361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &884617768
@@ -25805,7 +25533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &896206565
@@ -25976,7 +25704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &898656253
@@ -26331,7 +26059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &950971438
@@ -26502,7 +26230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &955149355
@@ -26826,7 +26554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &961697338
@@ -27002,7 +26730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &962779481
@@ -27352,7 +27080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1006571206
@@ -27522,7 +27250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1025126266
@@ -27693,7 +27421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1029777519
@@ -27864,7 +27592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1030908128
@@ -28036,7 +27764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1037329720
@@ -28273,7 +28001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1052154012
@@ -28443,7 +28171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1055761955
@@ -28620,7 +28348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1073409685
@@ -28792,7 +28520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1075949800
@@ -29020,7 +28748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1085587292
@@ -29378,7 +29106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1114231895
@@ -29549,7 +29277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1126652397
@@ -29720,7 +29448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1129770208
@@ -29891,7 +29619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1137698883
@@ -30150,7 +29878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1143974852
@@ -30444,7 +30172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1149677884
@@ -30616,7 +30344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1162132875
@@ -30786,7 +30514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1185483790
@@ -31049,7 +30777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1199332680
@@ -31221,7 +30949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1202701209
@@ -31392,7 +31120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1202702926
@@ -31562,7 +31290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1204735692
@@ -31765,7 +31493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1214892286
@@ -31935,7 +31663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1226078244
@@ -32106,7 +31834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1234191961
@@ -32342,7 +32070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1258425252
@@ -32513,7 +32241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1261325071
@@ -32868,7 +32596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1270710304
@@ -33105,7 +32833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1280294007
@@ -33277,7 +33005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1281754700
@@ -33454,7 +33182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1299772858
@@ -33625,7 +33353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1301878644
@@ -33795,7 +33523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1304655337
@@ -33967,7 +33695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1309831458
@@ -34137,7 +33865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1310203380
@@ -34307,7 +34035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1314766366
@@ -34478,7 +34206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1315733286
@@ -34648,7 +34376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1322603789
@@ -34991,7 +34719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1343015157
@@ -35162,7 +34890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1344709702
@@ -35332,7 +35060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1346971141
@@ -35589,7 +35317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!60 &1353413155
@@ -35747,7 +35475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1358179598
@@ -35919,7 +35647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1385389467
@@ -36208,7 +35936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1398174721
@@ -36380,7 +36108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1407722295
@@ -36551,7 +36279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1409782543
@@ -36723,7 +36451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1413792243
@@ -36894,7 +36622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1420023180
@@ -37066,7 +36794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1422602615
@@ -37237,7 +36965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1426350087
@@ -37409,7 +37137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1429301735
@@ -37679,7 +37407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1457586915
@@ -37849,7 +37577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1464719208
@@ -38020,7 +37748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1465381173
@@ -38192,7 +37920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1473527905
@@ -38362,7 +38090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1473964344
@@ -38533,7 +38261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1487527551
@@ -38710,7 +38438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1491133660
@@ -38931,7 +38659,7 @@ PrefabInstance:
     - target: {fileID: 2174449694447940349, guid: dafa797a4dec9cc4aaa49855a628495d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 379234499}
+      objectReference: {fileID: 0}
     - target: {fileID: 2174449694447940349, guid: dafa797a4dec9cc4aaa49855a628495d, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -39093,7 +38821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1506867857
@@ -39351,7 +39079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1514864542
@@ -39844,7 +39572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!60 &1550153487
@@ -40001,7 +39729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!60 &1585660290
@@ -40289,7 +40017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1620402448
@@ -40536,7 +40264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1636343674
@@ -40707,7 +40435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1637143713
@@ -40879,7 +40607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1641021500
@@ -41137,7 +40865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1660586537
@@ -41444,7 +41172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!60 &1669703857
@@ -41602,7 +41330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1671872680
@@ -41837,7 +41565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1675995996
@@ -42008,7 +41736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1678170255
@@ -42180,7 +41908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1683226034
@@ -42351,7 +42079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1686488593
@@ -42511,7 +42239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b47f2b2093242184cb4eb55dc6f53bd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 379234500}
+  target: {fileID: 0}
   offsetX: 3
   smoothSpeed: 5
   followY: 0
@@ -42770,7 +42498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1734374850
@@ -42942,7 +42670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1735178350
@@ -43112,7 +42840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1738278529
@@ -43284,7 +43012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1750964382
@@ -43634,7 +43362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1766050883
@@ -43806,7 +43534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1768675980
@@ -43976,7 +43704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1778637754
@@ -44148,7 +43876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1790094447
@@ -44319,7 +44047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1794930670
@@ -44496,7 +44224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1813480930
@@ -44672,7 +44400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1825694363
@@ -44972,7 +44700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1850974725
@@ -45144,7 +44872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1851775147
@@ -45316,7 +45044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1854045765
@@ -45486,7 +45214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1867380478
@@ -45658,7 +45386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1877723356
@@ -45830,7 +45558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1883143421
@@ -46007,7 +45735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1890377496
@@ -46177,7 +45905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!60 &1896292476
@@ -46299,7 +46027,7 @@ PrefabInstance:
     - target: {fileID: 2174449694447940349, guid: dafa797a4dec9cc4aaa49855a628495d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 379234499}
+      objectReference: {fileID: 0}
     - target: {fileID: 2174449694447940349, guid: dafa797a4dec9cc4aaa49855a628495d, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -46404,7 +46132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1911101303
@@ -46668,7 +46396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1927876865
@@ -46840,7 +46568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1929902296
@@ -47010,7 +46738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1939206443
@@ -47182,7 +46910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1951810783
@@ -47353,7 +47081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1958627948
@@ -47525,7 +47253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1960630981
@@ -47696,7 +47424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1960701332
@@ -47954,7 +47682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1977929898
@@ -48129,7 +47857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &1991279509
@@ -48304,7 +48032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2007282831
@@ -48474,7 +48202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2017238346
@@ -48796,7 +48524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2045199429
@@ -48966,7 +48694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2045613186
@@ -49138,7 +48866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2049071029
@@ -49310,7 +49038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2056077882
@@ -49482,7 +49210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2060714472
@@ -49653,7 +49381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2065832964
@@ -49823,7 +49551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2078109255
@@ -50080,7 +49808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2089672628
@@ -50250,7 +49978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!60 &2101700885
@@ -50408,7 +50136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2108035130
@@ -50626,7 +50354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!4 &2120996503
@@ -50907,7 +50635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2123785905
@@ -51077,7 +50805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2124653809
@@ -51249,7 +50977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2127113997
@@ -51421,7 +51149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2128195067
@@ -51592,7 +51320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2129021555
@@ -51764,7 +51492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2130237964
@@ -51935,7 +51663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2133967333
@@ -52151,7 +51879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0168c76f8384d4f8ce2f546cd04a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 379234499}
+  Player: {fileID: 0}
   respawnPoint: {fileID: 1546468503}
   respawnDelay: 1.5
 --- !u!114 &2145216545
@@ -52283,8 +52011,8 @@ SceneRoots:
   - {fileID: 1663892277}
   - {fileID: 296706115}
   - {fileID: 548526584}
-  - {fileID: 379234500}
   - {fileID: 2141795981}
+  - {fileID: 478861193}
   - {fileID: 1390944935}
   - {fileID: 1546468503}
   - {fileID: 1327184908}
